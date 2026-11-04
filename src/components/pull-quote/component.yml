@@ -1,0 +1,36 @@
+name: Pull Quote
+machineName: pull-quote
+status: true
+required:
+  - quote
+props:
+  properties:
+    quote:
+      type: string
+      title: Quote
+      examples:
+        - Quantum safe by design requires the entire HSM internal stack and
+          operating model to be designed around PQC capability.
+    attribution:
+      type: string
+      title: Attribution
+      examples:
+        - ABI Research
+    source:
+      type: string
+      title: Source
+      examples:
+        - 'Hardware Security Modules, Market Data Overview: 2Q 2026'
+    size:
+      type: string
+      enum:
+        - large
+        - medium
+      meta:enum:
+        large: Large
+        medium: Medium
+      title: Size
+      examples:
+        - large
+slots: {}
+dataDependencies: {}

@@ -1,0 +1,63 @@
+{
+  "mocks": [
+    {
+      "name": "Three steps",
+      "props": {
+        "railTitle": "Evaluation criteria"
+      },
+      "slots": {
+        "steps": ["s1", "s2", "s3"]
+      },
+      "elements": {
+        "s1": {
+          "type": "scrolly-step",
+          "props": {
+            "number": "01",
+            "label": "Key protection",
+            "heading": "Key Protection and Hardware Root of Trust",
+            "text": "<p>At the center of any HSM evaluation is the hardware root of trust.</p>"
+          },
+          "slots": {
+            "content": ["c1"]
+          }
+        },
+        "c1": {
+          "type": "checklist",
+          "props": {
+            "heading": "Buyers should consider",
+            "items": "<ul><li>Where keys are stored and generated</li><li>Whether keys stay in hardware by default</li></ul>"
+          }
+        },
+        "s2": {
+          "type": "scrolly-step",
+          "props": {
+            "number": "02",
+            "label": "Crypto agility",
+            "heading": "Crypto Agile and Quantum-Safe Foundation",
+            "text": "<p>Crypto agility is the ability to transition algorithms without disruption.</p>"
+          },
+          "slots": {
+            "content": ["c2"]
+          }
+        },
+        "c2": {
+          "type": "callout",
+          "props": {
+            "variant": "takeaway",
+            "title": "Key Takeaway",
+            "text": "<p>Look for an architecture that can absorb cryptographic change.</p>"
+          }
+        },
+        "s3": {
+          "type": "scrolly-step",
+          "props": {
+            "number": "03",
+            "label": "Certifications",
+            "heading": "Certifications, Compliance, and Sovereignty",
+            "text": "<p>Certifications are a starting point, not the whole picture.</p>"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+name: Quiz Next Step
+machineName: quiz-next-step
+status: true
+required:
+  - title
+props:
+  properties:
+    title:
+      type: string
+      title: Title
+      examples:
+        - Share This Report
+    detail:
+      type: string
+      title: Detail
+      description: Use {company} for the visitor's company.
+      examples:
+        - Circulate this report among your leadership team at {company}.
+slots: {}
+dataDependencies: {}

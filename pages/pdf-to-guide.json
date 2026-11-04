@@ -1,0 +1,26 @@
+{
+  "uuid": "4e8ca966-20e1-49e2-b25e-3892f63f34f0",
+  "title": "PDF to Interactive Guide",
+  "path": "/pdf-to-guide",
+  "description": "Upload a PDF and see it converted into an interactive guide.",
+  "elements": {
+    "01cb57fa-73a2-4d9e-a688-6e72bea496b9": {
+      "type": "js.pdf-guide",
+      "props": {
+        "pdf": {
+          "src": "/sites/default/files/2026-09/hsm-buyers-guide-how-to-evaluate-and-choose-the-right-hardware-security-module-vendor-eb_0.pdf",
+          "filename": "hsm-buyers-guide-how-to-evaluate-and-choose-the-right-hardware-security-module-vendor-eb_0.pdf",
+          "filesize": 4211358,
+          "mimetype": "application/pdf"
+        },
+        "brandName": "Thales",
+        "showOriginalPages": true
+      },
+      "_provenance": {
+        "pdf": {
+          "target_id": "1"
+        }
+      }
+    }
+  }
+}

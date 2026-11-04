@@ -1,0 +1,36 @@
+name: Checklist
+machineName: checklist
+status: true
+required:
+  - items
+props:
+  properties:
+    heading:
+      type: string
+      title: Heading
+      examples:
+        - 'Buyers should consider:'
+    items:
+      type: string
+      contentMediaType: text/html
+      x-formatting-context: block
+      title: Items
+      description: Bulleted list; each bullet becomes a checklist item.
+      examples:
+        - <ul><li>Where private keys are stored and how they are
+          generated</li><li>Whether keys remain in hardware by default</li></ul>
+    icon:
+      type: string
+      enum:
+        - check
+        - alert
+        - arrow
+      meta:enum:
+        check: Check
+        alert: Warning
+        arrow: Arrow
+      title: Icon
+      examples:
+        - check
+slots: {}
+dataDependencies: {}

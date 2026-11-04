@@ -1,0 +1,179 @@
+name: Quiz
+machineName: quiz
+status: true
+required:
+  - heading
+props:
+  properties:
+    heading:
+      type: string
+      title: Heading
+      examples:
+        - Software Monetization Readiness Assessment
+    headingAccent:
+      type: string
+      title: Heading Accent
+      description: Part of the heading to highlight in the accent color.
+      examples:
+        - Readiness
+    description:
+      type: string
+      title: Description
+      examples:
+        - Evaluate your organization's maturity, benchmark against industry
+          peers and get actionable recommendations.
+    startButtonLabel:
+      type: string
+      title: Start Button Label
+      examples:
+        - Start Assessment
+    startNote:
+      type: string
+      title: Start Note
+      examples:
+        - Join hundreds of growth leaders who have benchmarked their maturity.
+    brandName:
+      type: string
+      title: Brand Name
+      examples:
+        - THALES
+    brandSubtitle:
+      type: string
+      title: Brand Subtitle
+      examples:
+        - Software Monetization
+    resultsHeading:
+      type: string
+      title: Results Heading
+      examples:
+        - Your Assessment Results
+    overallLabel:
+      type: string
+      title: Overall Label
+      examples:
+        - Overall Readiness
+    benchmarkNote:
+      type: string
+      title: Benchmark Note
+      examples:
+        - Benchmarked against industry peers
+    categoriesHeading:
+      type: string
+      title: Categories Heading
+      examples:
+        - Your Category Scores vs. Industry Benchmarks
+    gateHeading:
+      type: string
+      title: Gate Heading
+      examples:
+        - Download Your Full Report
+    gateText:
+      type: string
+      title: Gate Text
+      examples:
+        - Get a professional PDF with detailed recommendations, industry
+          benchmarks, and a personalised action plan.
+    gateButtonLabel:
+      type: string
+      title: Gate Button Label
+      description: Submit label for the built-in demo form (used when no Marketo form
+        is set).
+      examples:
+        - Get My Full Report
+    marketoBaseUrl:
+      type: string
+      format: uri
+      title: Marketo Base URL
+      description: Marketo instance or landing page domain, e.g.
+        https://engage.example.com. Leave empty to use the demo form.
+    marketoMunchkinId:
+      type: string
+      title: Marketo Munchkin ID
+    marketoFormId:
+      type: string
+      title: Marketo Form ID
+    hubSpotRegion:
+      type: string
+      title: HubSpot Region
+      description: From the HubSpot embed code (data-region), e.g. na1 or na2. HubSpot
+        is used when all three HubSpot fields are set.
+    hubSpotPortalId:
+      type: string
+      title: HubSpot Portal ID
+    hubSpotFormId:
+      type: string
+      title: HubSpot Form ID
+    fullReportHeading:
+      type: string
+      title: Full Report Heading
+      examples:
+        - Your Full Assessment Report
+    detailedHeading:
+      type: string
+      title: Detailed Heading
+      examples:
+        - Detailed Category Analysis
+    downloadButtonLabel:
+      type: string
+      title: Download Button Label
+      examples:
+        - Download PDF Report
+    ctaHeading:
+      type: string
+      title: CTA Heading
+      examples:
+        - Ready to Transform Your Software Monetization?
+    ctaText:
+      type: string
+      title: CTA Text
+      examples:
+        - Our solutions help you protect, package, and monetize your software.
+    ctaButtonLabel:
+      type: string
+      title: CTA Button Label
+      examples:
+        - Learn More
+    ctaLink:
+      type: string
+      format: uri-reference
+      title: CTA Link
+      examples:
+        - /contact
+    retakeButtonLabel:
+      type: string
+      title: Retake Button Label
+      description: Shown on the results screens; clears saved answers and returns to
+        the start.
+      examples:
+        - Retake assessment
+    lowTierMax:
+      type: integer
+      title: Low Tier Max
+      description: Category scores up to this percentage use low-tier content and red
+        styling.
+      examples:
+        - 40
+    midTierMax:
+      type: integer
+      title: Mid Tier Max
+      description: Category scores up to this percentage use mid-tier content and
+        amber styling.
+      examples:
+        - 70
+    rememberProgress:
+      type: boolean
+      title: Remember Progress
+      description: Save answers in the visitor's browser so they can resume. Lead
+        details are never stored.
+      examples:
+        - true
+slots:
+  questions:
+    title: Questions
+  categories:
+    title: Categories
+  resultBands:
+    title: Result Bands
+  report:
+    title: Report
+dataDependencies: {}

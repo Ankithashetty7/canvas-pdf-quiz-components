@@ -1,0 +1,47 @@
+/* Marketo Forms 2.0 injects its own fixed widths; make it fit the gate card. */
+.quiz .mktoForm {
+  width: 100% !important;
+  padding: 0 !important;
+  font-family: inherit !important;
+}
+
+.quiz .mktoForm .mktoOffset,
+.quiz .mktoForm .mktoGutter {
+  display: none !important;
+}
+
+.quiz .mktoForm .mktoFormCol,
+.quiz .mktoForm .mktoFieldWrap,
+.quiz .mktoForm input[type='text'],
+.quiz .mktoForm input[type='email'],
+.quiz .mktoForm input[type='tel'],
+.quiz .mktoForm select,
+.quiz .mktoForm textarea {
+  width: 100% !important;
+}
+
+.quiz .mktoForm input[type='text'],
+.quiz .mktoForm input[type='email'],
+.quiz .mktoForm input[type='tel'],
+.quiz .mktoForm select {
+  height: 38px;
+  border: 1.5px solid #d1d5db;
+  border-radius: 8px;
+  padding: 10px 12px !important;
+  font-size: 14px;
+}
+
+.quiz .mktoForm textarea {
+  border: 1.5px solid #d1d5db;
+  border-radius: 8px;
+  padding: 10px !important;
+}
+
+.quiz .mktoForm label {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.quiz .mktoButtonWrap {
+  margin-left: 0 !important;
+}

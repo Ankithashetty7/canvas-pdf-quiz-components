@@ -1,0 +1,20 @@
+name: Scorecard
+machineName: scorecard
+status: true
+required: []
+props:
+  properties:
+    vendorLabel:
+      type: string
+      title: Vendor Label
+      examples:
+        - Vendor scorecard
+    summaryHeading:
+      type: string
+      title: Summary Heading
+      examples:
+        - Your vendor at a glance
+slots:
+  rows:
+    title: Rows
+dataDependencies: {}

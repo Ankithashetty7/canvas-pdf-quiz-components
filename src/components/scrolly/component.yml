@@ -1,0 +1,16 @@
+name: Scrolly
+machineName: scrolly
+status: true
+required: []
+props:
+  properties:
+    railTitle:
+      type: string
+      title: Rail Title
+      description: Label above the sticky progress rail.
+      examples:
+        - Evaluation criteria
+slots:
+  steps:
+    title: Steps
+dataDependencies: {}

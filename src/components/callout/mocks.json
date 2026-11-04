@@ -1,0 +1,12 @@
+{
+  "mocks": [
+    {
+      "name": "Note",
+      "props": {
+        "variant": "note",
+        "title": "The Shift",
+        "text": "<p>Organizations are no longer choosing only a security product.</p>"
+      }
+    }
+  ]
+}

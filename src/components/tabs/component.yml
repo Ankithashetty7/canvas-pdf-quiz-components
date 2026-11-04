@@ -1,0 +1,28 @@
+name: Tabs
+machineName: tabs
+status: true
+required:
+  - orientation
+props:
+  properties:
+    orientation:
+      type: string
+      enum:
+        - horizontal
+        - vertical
+      meta:enum:
+        horizontal: Horizontal
+        vertical: Vertical
+      title: Orientation
+      examples:
+        - horizontal
+    label:
+      type: string
+      title: Label
+      description: Accessible name for the tab list.
+      examples:
+        - Buying scenarios
+slots:
+  panels:
+    title: Panels
+dataDependencies: {}

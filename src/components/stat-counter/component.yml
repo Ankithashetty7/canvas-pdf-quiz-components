@@ -1,0 +1,54 @@
+name: Stat Counter
+machineName: stat-counter
+status: true
+required:
+  - value
+props:
+  properties:
+    display:
+      type: string
+      enum:
+        - number
+        - ring
+      meta:enum:
+        number: Number
+        ring: Ring chart
+      title: Display
+      examples:
+        - number
+    value:
+      type: number
+      title: Value
+      examples:
+        - 59
+    decimals:
+      type: integer
+      title: Decimals
+      examples:
+        - 0
+    prefix:
+      type: string
+      title: Prefix
+    suffix:
+      type: string
+      title: Suffix
+      examples:
+        - '%'
+    maxValue:
+      type: number
+      title: Max Value
+      description: Full circle value for the ring chart.
+      examples:
+        - 100
+    label:
+      type: string
+      title: Label
+      examples:
+        - of organizations are prototyping and evaluating PQC algorithms
+    source:
+      type: string
+      title: Source
+      examples:
+        - Thales Data Threat Report, 2026
+slots: {}
+dataDependencies: {}

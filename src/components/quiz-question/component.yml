@@ -1,0 +1,30 @@
+name: Quiz Question
+machineName: quiz-question
+status: true
+required:
+  - category
+  - question
+props:
+  properties:
+    category:
+      type: string
+      title: Category
+      description: Must match the name of a Quiz Category component. Questions in the
+        same category should be next to each other.
+      examples:
+        - Portfolio Structure
+    question:
+      type: string
+      title: Question
+      examples:
+        - How many software products does your organization sell?
+    description:
+      type: string
+      title: Description
+      examples:
+        - Think about all the distinct software products or solutions your
+          company offers to customers.
+slots:
+  options:
+    title: Options
+dataDependencies: {}

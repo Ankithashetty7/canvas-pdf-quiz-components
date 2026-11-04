@@ -1,0 +1,63 @@
+name: Quiz Report
+machineName: quiz-report
+status: true
+required:
+  - reportTitle
+props:
+  properties:
+    reportTitle:
+      type: string
+      title: Report Title
+      examples:
+        - Software Monetization
+    reportTitleAccent:
+      type: string
+      title: Report Title Accent
+      description: Second title line, shown in the accent color on the cover.
+      examples:
+        - Readiness Assessment
+    tagline:
+      type: string
+      title: Tagline
+      examples:
+        - Building a future we can all trust
+    websiteLabel:
+      type: string
+      title: Website Label
+      examples:
+        - example.com
+    copyrightText:
+      type: string
+      title: Copyright Text
+      examples:
+        - © 2026 Example Group
+    benchmarkSource:
+      type: string
+      title: Benchmark Source
+      examples:
+        - Based on survey of 300 software vendors, January 2026
+    ctaHeading:
+      type: string
+      title: CTA Heading
+      examples:
+        - Ready to Accelerate Your Software Monetization?
+    ctaText:
+      type: string
+      title: CTA Text
+      examples:
+        - Our solutions help you protect, package, and monetize your software.
+    ctaLinkLabel:
+      type: string
+      title: CTA Link Label
+      examples:
+        - example.com/software-monetization
+    fileNamePrefix:
+      type: string
+      title: File Name Prefix
+      description: The visitor's company name is appended.
+      examples:
+        - Software_Monetization_Assessment
+slots:
+  nextSteps:
+    title: Next Steps
+dataDependencies: {}

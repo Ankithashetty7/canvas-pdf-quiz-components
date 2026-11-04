@@ -1,0 +1,31 @@
+name: PDF Guide
+machineName: pdf-guide
+status: true
+required: []
+props:
+  properties:
+    pdf:
+      type: object
+      $ref: json-schema-definitions://canvas.module/document
+      title: PDF
+      description: Choose a PDF from the media library. It is converted into an
+        interactive guide when the page loads.
+    pdfUrl:
+      type: string
+      format: uri-reference
+      title: PDF URL
+      description: Fallback when no PDF is chosen above — a PDF on this site (or a
+        CORS-enabled host).
+    brandName:
+      type: string
+      title: Brand Name
+      examples:
+        - Thales
+    showOriginalPages:
+      type: boolean
+      title: Show Original Pages
+      description: Adds a "View original page" button to each section.
+      examples:
+        - true
+slots: {}
+dataDependencies: {}

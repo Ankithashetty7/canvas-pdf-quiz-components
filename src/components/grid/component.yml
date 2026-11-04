@@ -1,0 +1,62 @@
+name: Grid
+machineName: grid
+status: true
+required:
+  - columns
+props:
+  properties:
+    columns:
+      type: string
+      enum:
+        - one
+        - two
+        - three
+        - four
+        - five
+        - split
+      meta:enum:
+        one: One
+        two: Two
+        three: Three
+        four: Four
+        five: Five
+        split: Split (wide + narrow)
+      title: Columns
+      examples:
+        - three
+    gap:
+      type: string
+      enum:
+        - tight
+        - normal
+        - wide
+      meta:enum:
+        tight: Tight
+        normal: Normal
+        wide: Wide
+      title: Gap
+      examples:
+        - normal
+    align:
+      type: string
+      enum:
+        - start
+        - center
+        - stretch
+      meta:enum:
+        start: Top
+        center: Center
+        stretch: Stretch
+      title: Align
+      examples:
+        - stretch
+    spaced:
+      type: boolean
+      title: Spaced
+      description: Adds space above the grid when it follows other content.
+      examples:
+        - false
+slots:
+  items:
+    title: Items
+dataDependencies: {}

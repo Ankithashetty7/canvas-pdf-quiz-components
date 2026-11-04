@@ -1,0 +1,33 @@
+name: Callout
+machineName: callout
+status: true
+required:
+  - text
+props:
+  properties:
+    variant:
+      type: string
+      enum:
+        - takeaway
+        - note
+      meta:enum:
+        takeaway: Key takeaway
+        note: Note
+      title: Variant
+      examples:
+        - takeaway
+    title:
+      type: string
+      title: Title
+      examples:
+        - Key Takeaway
+    text:
+      type: string
+      contentMediaType: text/html
+      x-formatting-context: block
+      title: Text
+      examples:
+        - <p>A hardware root of trust matters because every other layer of
+          cryptographic security depends on it.</p>
+slots: {}
+dataDependencies: {}

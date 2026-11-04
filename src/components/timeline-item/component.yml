@@ -1,0 +1,76 @@
+name: Timeline Item
+machineName: timeline-item
+status: true
+required:
+  - heading
+props:
+  properties:
+    label:
+      type: string
+      title: Label
+      examples:
+        - Then
+    heading:
+      type: string
+      title: Heading
+      examples:
+        - What HSMs have traditionally supported
+    text:
+      type: string
+      title: Text
+      examples:
+        - Certificate authority protection, payment security, code signing, and
+          compliance-driven encryption.
+    icon:
+      type: string
+      enum:
+        - shield
+        - key
+        - chip
+        - cloud
+        - lock
+        - chart
+        - layers
+        - gauge
+        - network
+        - eye
+        - refresh
+        - coins
+        - road
+        - check
+        - alert
+        - bolt
+        - globe
+        - users
+        - sparkles
+        - target
+        - search
+        - scale
+      meta:enum:
+        shield: Shield
+        key: Key
+        chip: Chip
+        cloud: Cloud
+        lock: Lock
+        chart: Chart
+        layers: Layers
+        gauge: Gauge
+        network: Network
+        eye: Eye
+        refresh: Refresh
+        coins: Coins
+        road: Road
+        check: Check
+        alert: Alert
+        bolt: Bolt
+        globe: Globe
+        users: Users
+        sparkles: Sparkles
+        target: Target
+        search: Search
+        scale: Scale
+      title: Icon
+      examples:
+        - check
+slots: {}
+dataDependencies: {}

@@ -1,0 +1,56 @@
+name: Lead Form
+machineName: lead-form
+status: true
+required: []
+props:
+  properties:
+    heading:
+      type: string
+      title: Heading
+      examples:
+        - Talk to an HSM expert
+    text:
+      type: string
+      title: Text
+      examples:
+        - Get a personalized walkthrough of how to evaluate HSM vendors.
+    submitLabel:
+      type: string
+      title: Submit Label
+      description: Label for the built-in demo form (used when no Marketo form is set).
+      examples:
+        - Request a consultation
+    successHeading:
+      type: string
+      title: Success Heading
+      examples:
+        - Thank you!
+    successText:
+      type: string
+      title: Success Text
+      examples:
+        - An expert will be in touch shortly.
+    marketoBaseUrl:
+      type: string
+      format: uri
+      title: Marketo Base URL
+      description: Leave empty to use the demo form.
+    marketoMunchkinId:
+      type: string
+      title: Marketo Munchkin ID
+    marketoFormId:
+      type: string
+      title: Marketo Form ID
+    hubSpotRegion:
+      type: string
+      title: HubSpot Region
+      description: From the HubSpot embed code (data-region), e.g. na1 or na2. HubSpot
+        is used when all three HubSpot fields are set.
+    hubSpotPortalId:
+      type: string
+      title: HubSpot Portal ID
+    hubSpotFormId:
+      type: string
+      title: HubSpot Form ID
+slots: {}
+dataDependencies: {}

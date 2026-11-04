@@ -1,0 +1,26 @@
+name: Quiz Option
+machineName: quiz-option
+status: true
+required:
+  - label
+props:
+  properties:
+    label:
+      type: string
+      title: Label
+      examples:
+        - A Few Related Products
+    description:
+      type: string
+      title: Description
+      examples:
+        - We sell several products that are part of one product family
+    score:
+      type: integer
+      title: Score
+      description: Points this answer adds to its category. The highest option score
+        is the question's maximum.
+      examples:
+        - 2
+slots: {}
+dataDependencies: {}

@@ -1,0 +1,1147 @@
+{
+  "uuid": "5a116bc1-fff7-4236-a186-9cd63c8bc589",
+  "title": "Software Monetization Readiness Assessment",
+  "path": "/monetization-assessment",
+  "description": "Benchmark your software monetization maturity against industry peers and get a personalized PDF action plan.",
+  "elements": {
+    "5b09ce1d-0c8a-4421-9200-0000b286d70a": {
+      "type": "js.quiz",
+      "props": {
+        "ctaLink": "https://cpl.thalesgroup.com/software-monetization",
+        "ctaText": "Thales Software Monetization solutions help you protect, package, and monetize your software with industry-leading licensing and entitlement management.",
+        "heading": "Software Monetization Readiness Assessment",
+        "gateText": "Get a professional PDF with detailed recommendations, industry benchmarks, and a personalised action plan.",
+        "brandName": "THALES",
+        "startNote": "Join hundreds of growth leaders who have benchmarked their monetization maturity.",
+        "ctaHeading": "Ready to Transform Your Software Monetization?",
+        "lowTierMax": 40,
+        "midTierMax": 70,
+        "description": "Evaluate your organization's software monetization maturity and benchmark against industry peers and get actionable recommendations to maximize revenue.",
+        "gateHeading": "Download Your Full Report",
+        "overallLabel": "Overall Readiness",
+        "benchmarkNote": "Benchmarked against industry peers",
+        "brandSubtitle": "Software Monetization",
+        "headingAccent": "Readiness",
+        "hubSpotFormId": "bdf800e7-6d32-47df-9dca-258a2bf51c86",
+        "hubSpotRegion": "na2",
+        "ctaButtonLabel": "Learn More",
+        "resultsHeading": "Your Assessment Results",
+        "detailedHeading": "Detailed Category Analysis",
+        "gateButtonLabel": "Get My Full Report",
+        "hubSpotPortalId": "247553076",
+        "rememberProgress": true,
+        "startButtonLabel": "Start Assessment",
+        "categoriesHeading": "Your Category Scores vs. Industry Benchmarks",
+        "fullReportHeading": "Your Full Assessment Report",
+        "downloadButtonLabel": "Download PDF Report"
+      },
+      "slots": {
+        "questions": [
+          "fd6c25c2-670d-4143-ae44-4656c16bee72",
+          "0167b331-d2d8-497b-833a-ae31a8a65d47",
+          "760fd39a-c7dd-4b25-b3f8-e80bf59b2f5e",
+          "05e2ef3c-5cdf-48de-87d3-632a752b20cb",
+          "adc41bd2-6c0f-4e3a-9796-983d9d408837",
+          "244c297f-3c2a-4fc5-8cdb-4de1ab39b576",
+          "18b4fb64-4faa-4b83-bf38-d39f002a6966",
+          "10e71467-8b13-49f7-ae0f-51e78c6ee4fa",
+          "10be15b4-80cc-4bd8-8822-7436550c0963",
+          "78ff4221-1226-426f-a3ba-0b1636b018b0"
+        ],
+        "categories": [
+          "2e1bd5fa-adc9-4432-bdf3-f93349663f2c",
+          "51d1261f-51a6-4f6c-bb18-f1f01cb0de46",
+          "59a95d14-03ca-4d57-9fd8-6775169d87a5",
+          "90c5982b-fbdb-49f7-ba0f-39239de32950",
+          "865861df-68af-4592-a315-5a8c4a60acf3",
+          "c6561360-57f3-48c7-8cb1-c605fd9305fd"
+        ],
+        "resultBands": [
+          "645e3f99-032b-40fa-8f97-9d0816682b90",
+          "b1f96154-d82f-4752-b290-5be18e7d5b3d",
+          "ffa6725a-1c15-4902-bb98-27deb8ba4d05",
+          "a76a9bd8-8b8a-4607-986b-9bb4fb4f3e5e",
+          "9ff70359-838f-43d9-af8a-5e76270ed1d1",
+          "141c5604-3c5c-4c51-b199-af1391a3f1ad",
+          "b0739cc8-29a8-4bb0-b9b2-f1561b352aec",
+          "ac5f69b4-ecd8-4277-a80e-5c34ca60e50e",
+          "b639808a-cf98-4e8b-89c4-c193352e2857",
+          "d28b431b-4b80-470a-9378-cb4aa4457f91",
+          "62efcc13-18de-4b2e-a242-f8f413b32439",
+          "f5192499-4c0c-44fb-9518-e7bf977540a1",
+          "327e521e-ebac-4d0e-9f0d-68af834a9f54"
+        ],
+        "report": [
+          "85bdde65-2478-42b8-921a-76fb1941e87b"
+        ]
+      }
+    },
+    "fd6c25c2-670d-4143-ae44-4656c16bee72": {
+      "type": "js.quiz-question",
+      "props": {
+        "category": "Portfolio Structure",
+        "question": "How many software products does your organization sell?",
+        "description": "This helps us understand the complexity of your software business. Think about all the distinct software products or solutions your company offers to customers."
+      },
+      "slots": {
+        "options": [
+          "a06fb2d3-d40f-4a3a-8bc8-ad3779511d3d",
+          "4e34bd9c-8c50-4420-b50b-9544e9231bd7",
+          "55a8ffef-67d1-4785-a1da-4f05735dc71b",
+          "95703876-631c-4160-9e82-7fecae756401"
+        ]
+      }
+    },
+    "a06fb2d3-d40f-4a3a-8bc8-ad3779511d3d": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "One Product",
+        "score": 1,
+        "description": "We sell a single software product or solution"
+      }
+    },
+    "4e34bd9c-8c50-4420-b50b-9544e9231bd7": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "A Few Related Products",
+        "score": 2,
+        "description": "We sell several products that are part of one product family"
+      }
+    },
+    "55a8ffef-67d1-4785-a1da-4f05735dc71b": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "Multiple Product Lines",
+        "score": 3,
+        "description": "We sell different product lines managed by one team or division"
+      }
+    },
+    "95703876-631c-4160-9e82-7fecae756401": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "Many Products Across Teams",
+        "score": 4,
+        "description": "We sell many product lines managed by different teams or divisions"
+      }
+    },
+    "0167b331-d2d8-497b-833a-ae31a8a65d47": {
+      "type": "js.quiz-question",
+      "props": {
+        "category": "Portfolio Structure",
+        "question": "How do your customers access and run your software?",
+        "description": "Software can be delivered in different ways. Select the option that best describes how your customers use your products today."
+      },
+      "slots": {
+        "options": [
+          "89a0007c-c6e4-42da-ab03-efb9ce33a846",
+          "bf034480-7623-4ced-8315-541e0fee9b7e",
+          "626782f6-f442-48d7-896f-cb68d4908999",
+          "06bba552-b382-4da0-9b5c-e1c5e4d0b89a"
+        ]
+      }
+    },
+    "89a0007c-c6e4-42da-ab03-efb9ce33a846": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "One Way Only",
+        "score": 1,
+        "description": "Customers use our software in only one way — either installed locally or accessed online (cloud/SaaS)"
+      }
+    },
+    "bf034480-7623-4ced-8315-541e0fee9b7e": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "Two Options",
+        "score": 2,
+        "description": "Customers can choose between two options, such as cloud/SaaS and installed on their own servers"
+      }
+    },
+    "626782f6-f442-48d7-896f-cb68d4908999": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "Three Options",
+        "score": 3,
+        "description": "We support cloud/SaaS, on-site installation, and hosting in the customer's own private cloud"
+      }
+    },
+    "06bba552-b382-4da0-9b5c-e1c5e4d0b89a": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "All Options Available",
+        "score": 4,
+        "description": "We support cloud, on-site, private cloud, and software built into physical devices or equipment"
+      }
+    },
+    "760fd39a-c7dd-4b25-b3f8-e80bf59b2f5e": {
+      "type": "js.quiz-question",
+      "props": {
+        "category": "Licensing Maturity",
+        "question": "How many different ways can customers buy or pay for your software?",
+        "description": "Pricing models include things like one-time purchases, subscriptions, per-user fees, or pay-per-use. The more options you offer, the more flexibility customers have."
+      },
+      "slots": {
+        "options": [
+          "96195e56-89b9-4b45-90de-477d22947f50",
+          "43a6470e-0c3d-4245-9d9a-9c71b946336b",
+          "f54eea1e-5033-4c6a-ac6a-b1f0c4f26424",
+          "3243a3ac-f8ac-4bfb-85d4-7332423b3268"
+        ]
+      }
+    },
+    "96195e56-89b9-4b45-90de-477d22947f50": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "1–2 Ways",
+        "score": 1,
+        "description": "For example, only a one-time purchase, or only a subscription"
+      }
+    },
+    "43a6470e-0c3d-4245-9d9a-9c71b946336b": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "3–4 Ways",
+        "score": 2,
+        "description": "A mix, like subscriptions plus per-user pricing plus one-time purchase"
+      }
+    },
+    "f54eea1e-5033-4c6a-ac6a-b1f0c4f26424": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "5–6 Ways",
+        "score": 3,
+        "description": "A broader mix that may include pay-per-use or token/credit-based access"
+      }
+    },
+    "3243a3ac-f8ac-4bfb-85d4-7332423b3268": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "7 or More Ways",
+        "score": 4,
+        "description": "A comprehensive offering including pay-for-results, consumption billing, and more"
+      }
+    },
+    "05e2ef3c-5cdf-48de-87d3-632a752b20cb": {
+      "type": "js.quiz-question",
+      "props": {
+        "category": "Licensing Maturity",
+        "question": "How well is your current pricing and licensing approach working for your business?",
+        "description": "Think about whether your pricing keeps up with how customers want to buy, whether it's easy to manage internally, and whether it supports your revenue goals."
+      },
+      "slots": {
+        "options": [
+          "a4ba7a1b-47b9-4961-a470-d6cfd298297b",
+          "bfed49a6-e2a7-4959-a81c-dd709aa5b8fd",
+          "69f801ab-5a33-4805-8313-48bc786f8f12",
+          "14cf9a3e-5bbb-4128-ae45-4f949f3c8042"
+        ]
+      }
+    },
+    "a4ba7a1b-47b9-4961-a470-d6cfd298297b": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "Not Working Well",
+        "score": 1,
+        "description": "We lose deals or get frequent complaints about our pricing and licensing"
+      }
+    },
+    "bfed49a6-e2a7-4959-a81c-dd709aa5b8fd": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "Needs Improvement",
+        "score": 2,
+        "description": "We know there are problems, but we're getting by"
+      }
+    },
+    "69f801ab-5a33-4805-8313-48bc786f8f12": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "It's Okay",
+        "score": 3,
+        "description": "No major issues, but we're not fully confident it's optimal"
+      }
+    },
+    "14cf9a3e-5bbb-4128-ae45-4f949f3c8042": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "Working Well",
+        "score": 4,
+        "description": "Our approach meets most needs with only minor improvements needed"
+      }
+    },
+    "adc41bd2-6c0f-4e3a-9796-983d9d408837": {
+      "type": "js.quiz-question",
+      "props": {
+        "category": "Customer Alignment",
+        "question": "How much choice and flexibility do your customers have in how they purchase and use your software?",
+        "description": "Customers increasingly expect to choose their pricing model, switch between plans, and manage licenses on their own. How well do you support this?"
+      },
+      "slots": {
+        "options": [
+          "cb210015-0c8a-4ade-a5be-99412660a8aa",
+          "e4dff427-98f8-4db0-b771-22a996251124",
+          "cef31f5b-3225-49ba-a59d-8f6c117e456c",
+          "6255eb2c-2446-4843-b9cf-3ebf58908e91"
+        ]
+      }
+    },
+    "cb210015-0c8a-4ade-a5be-99412660a8aa": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "Very Limited",
+        "score": 1,
+        "description": "Customers must accept fixed terms — no choice in pricing model or plan changes"
+      }
+    },
+    "e4dff427-98f8-4db0-b771-22a996251124": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "Some Choice",
+        "score": 2,
+        "description": "Customers can pick from a few options when ordering, but can't change later"
+      }
+    },
+    "cef31f5b-3225-49ba-a59d-8f6c117e456c": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "Good Flexibility",
+        "score": 3,
+        "description": "Customers can choose and adjust their plan or model, with some self-service options"
+      }
+    },
+    "6255eb2c-2446-4843-b9cf-3ebf58908e91": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "Full Flexibility",
+        "score": 4,
+        "description": "Customers can switch plans, scale up or down, and manage everything through self-service"
+      }
+    },
+    "244c297f-3c2a-4fc5-8cdb-4de1ab39b576": {
+      "type": "js.quiz-question",
+      "props": {
+        "category": "Portfolio Monetization",
+        "question": "Does your organization have a plan for how to package and price products together across your portfolio?",
+        "description": "A portfolio monetization strategy is a coordinated plan for pricing, bundling, and selling your products together to grow revenue — rather than treating each product in isolation."
+      },
+      "slots": {
+        "options": [
+          "ecb496d2-ddd3-4bb9-bd67-60ce1e1afc28",
+          "14abaf8e-dbac-4394-ae41-f15d8f7d0e68",
+          "d0379985-d3f0-48f1-98ed-bd47ae2dcba6",
+          "446e9c9d-fe15-4760-909d-06f449d0013b"
+        ]
+      }
+    },
+    "ecb496d2-ddd3-4bb9-bd67-60ce1e1afc28": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "No Plan Yet",
+        "score": 1,
+        "description": "Each product is priced and sold independently with no coordinated strategy"
+      }
+    },
+    "14abaf8e-dbac-4394-ae41-f15d8f7d0e68": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "Starting to Think About It",
+        "score": 2,
+        "description": "We're exploring the idea but haven't started implementing anything"
+      }
+    },
+    "d0379985-d3f0-48f1-98ed-bd47ae2dcba6": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "Plan in Progress",
+        "score": 3,
+        "description": "We've defined a strategy and are beginning to put it into practice"
+      }
+    },
+    "446e9c9d-fe15-4760-909d-06f449d0013b": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "Fully in Place",
+        "score": 4,
+        "description": "We have a comprehensive strategy that's actively driving revenue growth"
+      }
+    },
+    "18b4fb64-4faa-4b83-bf38-d39f002a6966": {
+      "type": "js.quiz-question",
+      "props": {
+        "category": "Portfolio Monetization",
+        "question": "Can your customers buy access to multiple products under a single license or agreement?",
+        "description": "Instead of requiring separate purchases for each product, some vendors offer bundles, enterprise agreements, or shared credits that span multiple products."
+      },
+      "slots": {
+        "options": [
+          "9b14b2b6-430e-4c64-9462-7444dc7de44c",
+          "43f4d6d3-9b02-42db-b712-5f6c353b88b9",
+          "c6087fe9-da95-481e-9d84-591aff72454b",
+          "da6f086e-b368-4764-a38a-27e09f2156ca"
+        ]
+      }
+    },
+    "9b14b2b6-430e-4c64-9462-7444dc7de44c": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "No — Separate Purchases Only",
+        "score": 1,
+        "description": "Each product must be purchased and licensed independently"
+      }
+    },
+    "43f4d6d3-9b02-42db-b712-5f6c353b88b9": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "For Some Products",
+        "score": 2,
+        "description": "A few products can be bundled or purchased together"
+      }
+    },
+    "c6087fe9-da95-481e-9d84-591aff72454b": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "For Most Products",
+        "score": 3,
+        "description": "Most of our products can be bundled or sold under shared agreements"
+      }
+    },
+    "da6f086e-b368-4764-a38a-27e09f2156ca": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "Fully Unified",
+        "score": 4,
+        "description": "Customers can access our entire portfolio through unified licensing and bundles"
+      }
+    },
+    "10e71467-8b13-49f7-ae0f-51e78c6ee4fa": {
+      "type": "js.quiz-question",
+      "props": {
+        "category": "Operational Excellence",
+        "question": "How much of your license management is handled automatically vs. manually?",
+        "description": "This covers tasks like issuing license keys, tracking who's using what, handling renewals, and managing upgrades. Manual processes slow things down and introduce errors."
+      },
+      "slots": {
+        "options": [
+          "de5ae1a7-c225-4153-be8e-97ffa3358541",
+          "c158dd6c-edc4-4d43-9735-18fbc12f6736",
+          "97baa8b2-7ed8-4f85-8f33-1f956df2a364",
+          "c08b7fb1-e943-4caa-8260-c63c2341c731"
+        ]
+      }
+    },
+    "de5ae1a7-c225-4153-be8e-97ffa3358541": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "Mostly Manual",
+        "score": 1,
+        "description": "We rely on spreadsheets, emails, or manual steps for most licensing tasks"
+      }
+    },
+    "c158dd6c-edc4-4d43-9735-18fbc12f6736": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "Partially Automated",
+        "score": 2,
+        "description": "Some tasks are automated, but about half still require manual work"
+      }
+    },
+    "97baa8b2-7ed8-4f85-8f33-1f956df2a364": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "Mostly Automated",
+        "score": 3,
+        "description": "Most tasks are automated, with only a few manual steps remaining"
+      }
+    },
+    "c08b7fb1-e943-4caa-8260-c63c2341c731": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "Fully Automated",
+        "score": 4,
+        "description": "Everything from provisioning to renewals is automated end-to-end"
+      }
+    },
+    "10be15b4-80cc-4bd8-8822-7436550c0963": {
+      "type": "js.quiz-question",
+      "props": {
+        "category": "Operational Excellence",
+        "question": "Can you easily see a complete picture of who is using your software, how much, and what they've purchased?",
+        "description": "Many companies have licensing data spread across different tools and teams, making it hard to track usage, identify upsell opportunities, or prevent churn."
+      },
+      "slots": {
+        "options": [
+          "6adf6874-c10b-4901-b2ba-5dc505affd21",
+          "662018a4-7011-451f-974d-495a32961392",
+          "22e38ccc-df26-42fb-8c0b-cadf3d72a657",
+          "a33cfeff-08d0-4fa6-84d2-1ec681ffa336"
+        ]
+      }
+    },
+    "6adf6874-c10b-4901-b2ba-5dc505affd21": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "No — Data Is Scattered",
+        "score": 1,
+        "description": "Information is spread across disconnected systems and teams with no unified view"
+      }
+    },
+    "662018a4-7011-451f-974d-495a32961392": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "Partial View",
+        "score": 2,
+        "description": "We can see some data in one place, but major gaps and disconnected systems remain"
+      }
+    },
+    "22e38ccc-df26-42fb-8c0b-cadf3d72a657": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "Mostly Complete View",
+        "score": 3,
+        "description": "We have a central platform for most data, with a few remaining gaps"
+      }
+    },
+    "a33cfeff-08d0-4fa6-84d2-1ec681ffa336": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "Full Visibility",
+        "score": 4,
+        "description": "We have a single system that shows all licensing, usage, and purchase data in one place"
+      }
+    },
+    "78ff4221-1226-426f-a3ba-0b1636b018b0": {
+      "type": "js.quiz-question",
+      "props": {
+        "category": "AI Readiness",
+        "question": "If your software includes AI-powered features, how are you charging for them?",
+        "description": "As AI capabilities are added to software products, vendors need to decide how to price these features — whether to include them for free, charge extra, or create entirely new pricing models."
+      },
+      "slots": {
+        "options": [
+          "e3a7b9b5-4118-4c8e-8df8-0aa9ecaf214f",
+          "36aad917-6ca5-4878-bba8-604946069ccc",
+          "2e789520-5c24-43f4-8afc-a2478f73e52b",
+          "eb2dc5ff-cf68-4971-b2ee-e3488dc6297f"
+        ]
+      }
+    },
+    "e3a7b9b5-4118-4c8e-8df8-0aa9ecaf214f": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "No AI Features Yet",
+        "score": 1,
+        "description": "We haven't added AI capabilities to our products"
+      }
+    },
+    "36aad917-6ca5-4878-bba8-604946069ccc": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "Still Figuring It Out",
+        "score": 2,
+        "description": "We have or plan to have AI features, but haven't decided how to charge for them"
+      }
+    },
+    "2e789520-5c24-43f4-8afc-a2478f73e52b": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "Basic Approach",
+        "score": 3,
+        "description": "AI features are included in premium tiers, or sold as a paid add-on"
+      }
+    },
+    "eb2dc5ff-cf68-4971-b2ee-e3488dc6297f": {
+      "type": "js.quiz-option",
+      "props": {
+        "label": "Advanced Approach",
+        "score": 4,
+        "description": "We charge for AI based on actual usage, outcomes delivered, or through tiered consumption models"
+      }
+    },
+    "2e1bd5fa-adc9-4432-bdf3-f93349663f2c": {
+      "type": "js.quiz-category",
+      "props": {
+        "name": "Portfolio Structure",
+        "focusArea": "operational execution and delivery infrastructure",
+        "vendorBenchmark": 58,
+        "customerBenchmark": 52
+      },
+      "slots": {
+        "tiers": [
+          "7a6c0301-734d-4922-a67b-ebc4d122ad92",
+          "fc924a6c-544b-4b54-8159-aadec0d74cc6",
+          "e41673f1-755e-42e2-8909-d4f850581baf"
+        ],
+        "actions": [
+          "f8f3ad45-bae6-468c-8f9e-efbcb4386a68",
+          "5b28ac37-4210-4279-886e-a132fd07db8f"
+        ]
+      }
+    },
+    "7a6c0301-734d-4922-a67b-ebc4d122ad92": {
+      "type": "js.quiz-category-tier",
+      "props": {
+        "tier": "low",
+        "insight": "Your limited product range restricts cross-sell opportunities. Consider expanding deployment options.",
+        "whatItMeans": "{company}'s limited product portfolio or single delivery model restricts your ability to serve diverse customer needs. With 80% of vendors now offering SaaS, customers expect choice in how they deploy and consume software. Expanding your portfolio structure opens new market segments and customer conversations.",
+        "recommendations": "<ul><li>Survey your top 20 customers to understand unmet deployment needs — 80% of vendors now offer SaaS, and customers who can't access your software their preferred way often choose a competitor instead</li><li>Map out which customer segments need cloud, on-premises, or hybrid access and create a 6-month roadmap to address the biggest gap first</li><li>Evaluate whether adjacent products or add-ons could expand your offering — even a simple complementary tool can increase average deal size by 15–25%</li></ul>"
+      }
+    },
+    "fc924a6c-544b-4b54-8159-aadec0d74cc6": {
+      "type": "js.quiz-category-tier",
+      "props": {
+        "tier": "mid",
+        "insight": "Solid foundation — standardize delivery across product lines for a more consistent customer experience.",
+        "whatItMeans": "{company} has a reasonable portfolio foundation, but there's room to broaden your deployment options or product mix. Customers increasingly want to choose between cloud, on-premises, and hybrid deployment at the time of use — not just at purchase time.",
+        "recommendations": "<ul><li>Standardize how you deliver software across product lines so customers get a consistent experience — inconsistency creates support costs and slows deals</li><li>Investigate a unified entitlement platform that manages all products in one place, reducing the operational overhead of maintaining separate systems per product</li></ul>"
+      }
+    },
+    "e41673f1-755e-42e2-8909-d4f850581baf": {
+      "type": "js.quiz-category-tier",
+      "props": {
+        "tier": "high",
+        "insight": "Strong portfolio breadth. Leverage it for enterprise bundles and portfolio-wide licensing agreements.",
+        "whatItMeans": "{company}'s diverse portfolio and deployment options position you well. Your broad offering creates opportunities for cross-selling, bundling, and enterprise agreements that smaller portfolios can't support.",
+        "recommendations": "<ul><li>Use your broad portfolio as a competitive weapon — create tiered enterprise bundles that lock in larger, longer-term commitments from your biggest customers</li><li>Develop portfolio-wide licensing agreements that let customers access any product under a single contract, simplifying procurement and driving expansion</li></ul>"
+      }
+    },
+    "f8f3ad45-bae6-468c-8f9e-efbcb4386a68": {
+      "type": "js.quiz-action",
+      "props": {
+        "action": "Audit your deployment options and customer demand",
+        "detail": "Survey your top 20 customers on unmet deployment needs. 80% of vendors now offer SaaS — if you don't, you're likely losing deals to competitors who do.",
+        "effort": "low",
+        "impact": "high",
+        "timeframe": "30 days",
+        "appliesWhen": "below_benchmark"
+      }
+    },
+    "5b28ac37-4210-4279-886e-a132fd07db8f": {
+      "type": "js.quiz-action",
+      "props": {
+        "action": "Leverage portfolio breadth for enterprise bundling",
+        "detail": "Your portfolio structure is strong. Create tiered enterprise bundles that lock in larger, longer-term commitments and use your breadth as a competitive differentiator.",
+        "effort": "medium",
+        "impact": "medium",
+        "timeframe": "60–90 days",
+        "appliesWhen": "above_benchmark"
+      }
+    },
+    "51d1261f-51a6-4f6c-bb18-f1f01cb0de46": {
+      "type": "js.quiz-category",
+      "props": {
+        "name": "Licensing Maturity",
+        "focusArea": "strategic positioning and monetization approach",
+        "vendorBenchmark": 42,
+        "customerBenchmark": 48
+      },
+      "slots": {
+        "tiers": [
+          "b1370627-34fb-44da-ab70-14f7e2f313f7",
+          "576b4c93-7596-4796-b609-d8f2fcccfa47",
+          "c5667103-2542-4029-8182-c966239dd043"
+        ],
+        "actions": [
+          "28a997bb-8ec9-40b2-b0cc-4ea33ed4d66c",
+          "e31bff78-61f8-40ee-8c0e-1bb37fa00923"
+        ]
+      }
+    },
+    "b1370627-34fb-44da-ab70-14f7e2f313f7": {
+      "type": "js.quiz-category-tier",
+      "props": {
+        "tier": "low",
+        "insight": "Limited pricing options may be costing you deals. Adding subscription or usage-based models can reduce churn.",
+        "whatItMeans": "{company}'s limited pricing options are likely costing you deals. 49% of vendors are dissatisfied with their licensing approach — if your pricing feels rigid or outdated compared to competitors, customers will notice.",
+        "recommendations": "<ul><li>Add at least one subscription or term-based pricing option within the next 90 days — 73% of leading vendors already offer this, and it reduces customer risk, which accelerates deals</li><li>Introduce a usage-based or pay-as-you-go model for at least one product — this gives price-sensitive customers a low-risk entry point and creates natural expansion revenue</li><li>Audit your current pricing against your top 3 competitors — if customers can get more flexible terms elsewhere, you're losing deals you may not even know about</li></ul>"
+      }
+    },
+    "576b4c93-7596-4796-b609-d8f2fcccfa47": {
+      "type": "js.quiz-category-tier",
+      "props": {
+        "tier": "mid",
+        "insight": "Good model diversity. Pilot token-based or consumption pricing to differentiate from competitors.",
+        "whatItMeans": "{company} offers a reasonable range of pricing models but isn't yet matching the variety offered by leading vendors. 73% of top-performing vendors offer subscription/term licensing.",
+        "recommendations": "<ul><li>Pilot a token or credit-based model that lets customers consume services flexibly across products — this differentiates you and creates a built-in upsell mechanism</li><li>Automate license provisioning so new customers are activated in minutes instead of days — every delay between purchase and first use risks buyer's remorse</li></ul>"
+      }
+    },
+    "c5667103-2542-4029-8182-c966239dd043": {
+      "type": "js.quiz-category-tier",
+      "props": {
+        "tier": "high",
+        "insight": "Advanced pricing portfolio. Explore outcome-based pricing to command premium positioning.",
+        "whatItMeans": "{company}'s diverse licensing portfolio is a significant competitive advantage. You can meet customers where they are — whether they prefer perpetual, subscription, usage-based, or hybrid models.",
+        "recommendations": "<ul><li>Run a pricing optimization analysis on your top revenue products — even a 3–5% price increase backed by value metrics can significantly boost margins without affecting volume</li><li>Pilot outcome-based pricing for your highest-value offering — charging based on results delivered (not features used) commands premium pricing and deepens customer commitment</li></ul>"
+      }
+    },
+    "28a997bb-8ec9-40b2-b0cc-4ea33ed4d66c": {
+      "type": "js.quiz-action",
+      "props": {
+        "action": "Introduce subscription or usage-based pricing",
+        "detail": "73% of leading vendors offer subscription licensing. Adding even one flexible model can reduce churn and increase deal velocity by giving customers a lower-risk entry point.",
+        "effort": "medium",
+        "impact": "high",
+        "timeframe": "60–90 days",
+        "appliesWhen": "below_benchmark"
+      }
+    },
+    "e31bff78-61f8-40ee-8c0e-1bb37fa00923": {
+      "type": "js.quiz-action",
+      "props": {
+        "action": "Pilot outcome-based or consumption pricing",
+        "detail": "Your licensing maturity is solid. Differentiate further by piloting outcome-based pricing for high-value customers — charging based on results delivered commands premium positioning.",
+        "effort": "medium",
+        "impact": "medium",
+        "timeframe": "90 days",
+        "appliesWhen": "above_benchmark"
+      }
+    },
+    "59a95d14-03ca-4d57-9fd8-6775169d87a5": {
+      "type": "js.quiz-category",
+      "props": {
+        "name": "Customer Alignment",
+        "focusArea": "go-to-market alignment and customer engagement",
+        "vendorBenchmark": 45,
+        "customerBenchmark": 55
+      },
+      "slots": {
+        "tiers": [
+          "b32b3e77-d1fa-4425-a811-edb856e3cffa",
+          "23b73f6c-f907-450c-9fe1-6a876623e5f6",
+          "c2f59bf3-9a55-4787-9437-95335fc4f5ba"
+        ],
+        "actions": [
+          "0aae00c6-3d19-46aa-ac9c-e6e636240f0b",
+          "43209b2d-0ef7-45b2-b2ce-186847cb94c0"
+        ]
+      }
+    },
+    "b32b3e77-d1fa-4425-a811-edb856e3cffa": {
+      "type": "js.quiz-category-tier",
+      "props": {
+        "tier": "low",
+        "insight": "Customers likely face friction buying and managing your software. Self-service portals reduce churn risk.",
+        "whatItMeans": "{company}'s customers are likely experiencing friction when buying and managing your software. 69% of customers want more flexible license models, and 61% want better visibility into what they've purchased vs. what they're using.",
+        "recommendations": "<ul><li>Launch a customer-facing portal within 90 days where customers can view their licenses, check usage, and manage renewals — 61% of customers want this, and it reduces support tickets by 30–40%</li><li>Introduce at least one flexible pricing model that lets customers scale up or down — 69% of customers demand this flexibility, and rigid terms are a top reason for churn</li><li>Create a customer feedback loop specifically about licensing — quarterly surveys or win/loss analysis on pricing objections will reveal quick wins you're currently missing</li></ul>"
+      }
+    },
+    "23b73f6c-f907-450c-9fe1-6a876623e5f6": {
+      "type": "js.quiz-category-tier",
+      "props": {
+        "tier": "mid",
+        "insight": "Reasonable flexibility. Let customers adjust their plans post-purchase to improve retention.",
+        "whatItMeans": "{company} is meeting basic customer expectations but has room to improve. Self-service capabilities and real-time usage visibility are becoming table stakes. 42% of vendors are already implementing self-service portals.",
+        "recommendations": "<ul><li>Let customers choose their deployment model at the time of use, not just at purchase — 35% of vendors now support this, and it eliminates a common deal blocker</li><li>Build customer-facing usage dashboards that show value delivered — customers who can see how much they're using your software are 2–3x more likely to renew and expand</li></ul>"
+      }
+    },
+    "c2f59bf3-9a55-4787-9437-95335fc4f5ba": {
+      "type": "js.quiz-category-tier",
+      "props": {
+        "tier": "high",
+        "insight": "Strong alignment. Deploy predictive analytics to identify upsell and churn signals proactively.",
+        "whatItMeans": "{company} demonstrates strong customer alignment in licensing. Your customers likely appreciate the flexibility and visibility you provide. Focus on predictive capabilities to maintain this advantage.",
+        "recommendations": "<ul><li>Innovate on customer-centric packaging — let customers build custom bundles or mix-and-match features rather than choosing from fixed tiers</li><li>Deploy predictive analytics on usage data to identify at-risk renewals 60–90 days in advance, and trigger proactive engagement before churn conversations begin</li></ul>"
+      }
+    },
+    "0aae00c6-3d19-46aa-ac9c-e6e636240f0b": {
+      "type": "js.quiz-action",
+      "props": {
+        "action": "Launch a self-service license management portal",
+        "detail": "61% of customers want better visibility into their licenses. A self-service portal reduces support burden, increases transparency, and directly addresses the #1 customer complaint.",
+        "effort": "medium",
+        "impact": "high",
+        "timeframe": "90 days",
+        "appliesWhen": "below_benchmark"
+      }
+    },
+    "43209b2d-0ef7-45b2-b2ce-186847cb94c0": {
+      "type": "js.quiz-action",
+      "props": {
+        "action": "Deploy predictive customer engagement analytics",
+        "detail": "Your customer alignment is strong. Use usage data to predict churn 60–90 days in advance and trigger proactive engagement to protect and expand existing revenue.",
+        "effort": "medium",
+        "impact": "medium",
+        "timeframe": "60 days",
+        "appliesWhen": "above_benchmark"
+      }
+    },
+    "90c5982b-fbdb-49f7-ba0f-39239de32950": {
+      "type": "js.quiz-category",
+      "props": {
+        "name": "Portfolio Monetization",
+        "focusArea": "strategic positioning and monetization approach",
+        "vendorBenchmark": 48,
+        "customerBenchmark": 40
+      },
+      "slots": {
+        "tiers": [
+          "568385a6-dd15-40eb-996d-49b2e5e80664",
+          "5deed00a-966b-4715-beda-e8c2506c7b63",
+          "055a6806-1e65-4017-a34c-df43e71ffcc0"
+        ],
+        "actions": [
+          "36a297f4-1676-4a5a-b810-61142fca6f9c",
+          "d1c6ae81-326f-4cc5-949c-e36c34d9bf61"
+        ]
+      }
+    },
+    "568385a6-dd15-40eb-996d-49b2e5e80664": {
+      "type": "js.quiz-category-tier",
+      "props": {
+        "tier": "low",
+        "insight": "Selling products independently leaves revenue on the table. Start with a simple 2-product bundle.",
+        "whatItMeans": "{company} is likely leaving significant revenue on the table by selling each product independently. Without a portfolio strategy, you miss cross-sell opportunities, and your sales team lacks the tools to drive larger deals.",
+        "recommendations": "<ul><li>Create your first product bundle this quarter — pick your two most complementary products, offer a 10–15% discount when purchased together, and track the impact on deal size</li><li>Draft a one-page portfolio monetization strategy document — define which products can be bundled, which have cross-sell potential, and what a target enterprise agreement looks like</li><li>Calculate how much revenue you're leaving on the table from customers who buy only one product but could benefit from others — this number builds the internal business case for investment</li></ul>"
+      }
+    },
+    "5deed00a-966b-4715-beda-e8c2506c7b63": {
+      "type": "js.quiz-category-tier",
+      "props": {
+        "tier": "mid",
+        "insight": "Good progress. Formalize with centralized pricing governance across product lines.",
+        "whatItMeans": "{company} has started exploring portfolio monetization. The opportunity now is to formalize this — build centralized pricing governance and create standardized bundle frameworks.",
+        "recommendations": "<ul><li>Establish a central pricing committee that governs cross-product pricing — 69% of successful portfolio strategies include this, and it prevents internal teams from undercutting each other</li><li>Build an integrated licensing framework that allows multi-product deals with shared terms, credits, or volume discounts — make it easy for sales to construct large deals</li></ul>"
+      }
+    },
+    "055a6806-1e65-4017-a34c-df43e71ffcc0": {
+      "type": "js.quiz-category-tier",
+      "props": {
+        "tier": "high",
+        "insight": "Well-developed strategy. Evolve toward enterprise-wide agreements with shared credit pools.",
+        "whatItMeans": "{company}'s portfolio monetization approach is well-developed. Consider evolving toward enterprise-wide agreements and shared credit pools to deepen customer commitment.",
+        "recommendations": "<ul><li>Design enterprise-wide agreements with shared credit pools that incentivize customers to expand across your portfolio — this increases switching costs and deepens relationships</li><li>Implement portfolio-level analytics to identify which product combinations drive the highest lifetime value, then optimize your bundle strategy around those patterns</li></ul>"
+      }
+    },
+    "36a297f4-1676-4a5a-b810-61142fca6f9c": {
+      "type": "js.quiz-action",
+      "props": {
+        "action": "Create your first cross-product bundle or enterprise agreement",
+        "detail": "74% of vendors say cross-portfolio agreements would be very useful. Start with your two most complementary products — even a simple bundle can increase average deal size by 20–30%.",
+        "effort": "low",
+        "impact": "high",
+        "timeframe": "30–60 days",
+        "appliesWhen": "below_benchmark"
+      }
+    },
+    "d1c6ae81-326f-4cc5-949c-e36c34d9bf61": {
+      "type": "js.quiz-action",
+      "props": {
+        "action": "Establish centralized pricing governance",
+        "detail": "Your portfolio monetization is on track. Formalize with centralized pricing governance to prevent internal conflicts and enable faster go-to-market for new bundles.",
+        "effort": "high",
+        "impact": "medium",
+        "timeframe": "6 months",
+        "appliesWhen": "above_benchmark"
+      }
+    },
+    "865861df-68af-4592-a315-5a8c4a60acf3": {
+      "type": "js.quiz-category",
+      "props": {
+        "name": "Operational Excellence",
+        "focusArea": "operational execution and delivery infrastructure",
+        "vendorBenchmark": 35,
+        "customerBenchmark": 38
+      },
+      "slots": {
+        "tiers": [
+          "b2eca431-a4a2-4007-b92d-30ae83248512",
+          "5d0d8c4b-6aab-453f-8d3d-13991d464c1b",
+          "4019b75d-ccd2-4832-a71c-69b1ca2f5d45"
+        ],
+        "actions": [
+          "866f6de1-57bc-458d-8af0-64c152f2894e",
+          "c6757073-24f7-4f90-8fae-d2c8848c33a5"
+        ]
+      }
+    },
+    "b2eca431-a4a2-4007-b92d-30ae83248512": {
+      "type": "js.quiz-category-tier",
+      "props": {
+        "tier": "low",
+        "insight": "Manual processes create cost overhead and slow customer onboarding. Automate provisioning first.",
+        "whatItMeans": "Manual licensing processes at {company} are creating costs, delays, and errors that directly impact customer experience. Only 10% of vendors are fully automated, but those that are report faster order fulfillment and lower operational overhead.",
+        "recommendations": "<ul><li>Automate license key generation and provisioning first — this single change can cut order-to-activation time from days to minutes and eliminate the most common source of customer frustration</li><li>Consolidate your licensing data into one system within 6 months — only 25% of vendors have achieved this, but without it you can't accurately forecast, identify churn risk, or make data-driven decisions</li><li>Replace manual renewal tracking with automated workflows — every missed renewal is lost revenue, and manual processes mean renewals slip through the cracks at scale</li></ul>"
+      }
+    },
+    "5d0d8c4b-6aab-453f-8d3d-13991d464c1b": {
+      "type": "js.quiz-category-tier",
+      "props": {
+        "tier": "mid",
+        "insight": "Partially automated. Consolidate licensing data into one platform for better forecasting.",
+        "whatItMeans": "{company} has made progress on automation but still has significant manual touchpoints. 63% of vendors cite too many disparate systems as a top barrier — consolidation should be a priority.",
+        "recommendations": "<ul><li>Move off custom in-house licensing tools to a dedicated platform — 61% of vendors still rely on proprietary tools that become a bottleneck as product complexity grows</li><li>Automate entitlement tracking and reconciliation across business units so you have a real-time view of what every customer is entitled to use vs. what they're actually using</li></ul>"
+      }
+    },
+    "4019b75d-ccd2-4832-a71c-69b1ca2f5d45": {
+      "type": "js.quiz-category-tier",
+      "props": {
+        "tier": "high",
+        "insight": "Strong automation. Use your data for predictive churn detection and automated upsell triggers.",
+        "whatItMeans": "{company}'s operations are well-automated, giving you a cost advantage and better customer experience than most peers. Use your operational data proactively with predictive churn models.",
+        "recommendations": "<ul><li>Build predictive models on your licensing data to automatically flag upsell opportunities, at-risk renewals, and usage anomalies — turn your operational data into a revenue engine</li><li>Implement real-time usage collection across all deployment models (including on-premises) so you can offer true consumption-based pricing to any customer, anywhere</li></ul>"
+      }
+    },
+    "866f6de1-57bc-458d-8af0-64c152f2894e": {
+      "type": "js.quiz-action",
+      "props": {
+        "action": "Automate license provisioning and renewal workflows",
+        "detail": "Only 10% of vendors are fully automated. Automating provisioning alone can cut order-to-activation time from days to minutes, directly improving customer experience and reducing ops costs.",
+        "effort": "medium",
+        "impact": "high",
+        "timeframe": "90 days",
+        "appliesWhen": "below_benchmark"
+      }
+    },
+    "c6757073-24f7-4f90-8fae-d2c8848c33a5": {
+      "type": "js.quiz-action",
+      "props": {
+        "action": "Build predictive analytics on licensing data",
+        "detail": "Your operations are strong. Turn your data into a revenue engine with predictive models that flag upsell opportunities, at-risk renewals, and usage anomalies automatically.",
+        "effort": "medium",
+        "impact": "medium",
+        "timeframe": "90 days",
+        "appliesWhen": "above_benchmark"
+      }
+    },
+    "c6561360-57f3-48c7-8cb1-c605fd9305fd": {
+      "type": "js.quiz-category",
+      "props": {
+        "name": "AI Readiness",
+        "focusArea": "strategic positioning and monetization approach",
+        "vendorBenchmark": 52,
+        "customerBenchmark": 45
+      },
+      "slots": {
+        "tiers": [
+          "78003a63-3385-4e33-9244-f82fb3d0a51f",
+          "32a12ed5-d5de-4b18-9a49-bda58a797676",
+          "49fc3cb6-d4fa-4a14-853d-32f1d49dbdf3"
+        ],
+        "actions": [
+          "85d0f769-0931-4f07-9b4c-9f75036edb34",
+          "f268c3a2-cd8c-4d3f-82a1-5650552fece7"
+        ]
+      }
+    },
+    "78003a63-3385-4e33-9244-f82fb3d0a51f": {
+      "type": "js.quiz-category-tier",
+      "props": {
+        "tier": "low",
+        "insight": "Without an AI pricing strategy, you risk giving away value. Define tiered AI pricing now.",
+        "whatItMeans": "{company} has not yet developed a strategy for monetizing AI features. With 76% of vendors rethinking licensing specifically because of AI, this gap will widen quickly. Software buyers expect AI to be priced transparently.",
+        "recommendations": "<ul><li>Define an AI pricing strategy within 30 days — even if your AI features aren't ready yet, having a pricing framework prevents the default of giving AI value away for free when you do launch</li><li>Study how your top 3 competitors are pricing AI features — 60% of vendors have already added AI capabilities, and customers will compare your approach to theirs</li><li>Start with simple AI tiering: offer a basic AI experience in your standard plan and reserve advanced AI features for a premium tier — this captures value without complex metering</li></ul>"
+      }
+    },
+    "32a12ed5-d5de-4b18-9a49-bda58a797676": {
+      "type": "js.quiz-category-tier",
+      "props": {
+        "tier": "mid",
+        "insight": "Basic AI monetization in place. Build usage metering to enable consumption-based pricing.",
+        "whatItMeans": "{company} has begun addressing AI monetization but has room to formalize the approach. The vendors who pull ahead here will tie AI pricing to measurable outcomes or consumption metrics.",
+        "recommendations": "<ul><li>Move beyond simple bundling — implement AI-specific add-on pricing or tiered access that lets power users pay more while casual users get basic AI included</li><li>Build usage metering for AI features now (API calls, compute tokens, predictions served) so you have the infrastructure ready for consumption-based pricing as AI adoption grows</li></ul>"
+      }
+    },
+    "49fc3cb6-d4fa-4a14-853d-32f1d49dbdf3": {
+      "type": "js.quiz-category-tier",
+      "props": {
+        "tier": "high",
+        "insight": "Leading-edge approach. Pioneer outcome-based AI pricing tied to business results delivered.",
+        "whatItMeans": "{company} is among the leading vendors in AI monetization readiness. Your ability to price AI features based on usage or outcomes positions you to capture significantly more value from AI investments.",
+        "recommendations": "<ul><li>Pioneer outcome-based AI pricing for your most impactful AI features — charge based on business results delivered (deals closed, defects prevented, hours saved) rather than compute consumed</li><li>Implement dynamic AI pricing that adjusts based on model complexity and resource consumption — as newer, more expensive AI models are released, your pricing should scale proportionally</li></ul>"
+      }
+    },
+    "85d0f769-0931-4f07-9b4c-9f75036edb34": {
+      "type": "js.quiz-action",
+      "props": {
+        "action": "Define your AI feature monetization strategy",
+        "detail": "76% of vendors say AI is driving new licensing considerations. If you're adding AI features without a pricing strategy, you're giving away value. Even basic tiering (free/premium) captures more revenue than bundling AI for free.",
+        "effort": "low",
+        "impact": "high",
+        "timeframe": "30 days",
+        "appliesWhen": "below_benchmark"
+      }
+    },
+    "f268c3a2-cd8c-4d3f-82a1-5650552fece7": {
+      "type": "js.quiz-action",
+      "props": {
+        "action": "Implement usage-based metering for AI features",
+        "detail": "Your AI monetization is ahead of most peers. Implement consumption metering (API calls, tokens, compute) to capture upside from power users and align price with value.",
+        "effort": "medium",
+        "impact": "medium",
+        "timeframe": "60–90 days",
+        "appliesWhen": "above_benchmark"
+      }
+    },
+    "645e3f99-032b-40fa-8f97-9d0816682b90": {
+      "type": "js.quiz-result-band",
+      "props": {
+        "maxPercent": 25,
+        "minPercent": 0,
+        "overallLevel": "Foundational",
+        "categoryLevel": "Critical",
+        "executiveSummary": "{company} is commercially exposed. At {percent}%, gaps in {topGaps} mean revenue leakage through rigid pricing, manual fulfillment delays, and limited cross-sell. {weakest} at {weakestPercent}%{?weakestGap>0| ({weakestGap}pts below peers)|} is the most acute risk — directly increasing churn and compressing deal sizes. This report maps the fastest path from exposure to revenue capture."
+      }
+    },
+    "b1f96154-d82f-4752-b290-5be18e7d5b3d": {
+      "type": "js.quiz-result-band",
+      "props": {
+        "maxPercent": 45,
+        "minPercent": 26,
+        "overallLevel": "Developing",
+        "categoryLevel": "Developing",
+        "executiveSummary": "{company} has early foundations but is losing ground where it matters most: {topGaps}. {weakest} at {weakestPercent}%{?weakestGap>0| ({weakestGap}pts behind peers)|} creates measurable churn risk — customers facing licensing friction leave. Competitors offering flexible pricing and self-service are winning the deals you're quoting on. This report prioritizes the moves that close revenue gaps fastest."
+      }
+    },
+    "ffa6725a-1c15-4902-bb98-27deb8ba4d05": {
+      "type": "js.quiz-result-band",
+      "props": {
+        "maxPercent": 65,
+        "minPercent": 46,
+        "overallLevel": "Established",
+        "categoryLevel": "Established",
+        "executiveSummary": "{company} operates near the industry midpoint, but the margin between average and competitive is thin. Priority gaps in {topGaps} represent the revenue delta between where you are and where deal velocity, retention, and expansion revenue improve materially. {weakest} at {weakestPercent}%{?weakestGap>0| ({weakestGap}pts below benchmark)|} is the constraint. This report outlines the specific moves to break above average."
+      }
+    },
+    "a76a9bd8-8b8a-4607-986b-9bb4fb4f3e5e": {
+      "type": "js.quiz-result-band",
+      "props": {
+        "maxPercent": 85,
+        "minPercent": 66,
+        "overallLevel": "Advanced",
+        "categoryLevel": "Advanced",
+        "executiveSummary": "{company} outperforms most peers, but the remaining gaps — {topGaps} — are where competitors with stronger automation and pricing sophistication will close the distance. {weakest} at {weakestPercent}% is the clearest remaining leverage point. This report focuses on the optimizations that protect your lead and unlock premium positioning."
+      }
+    },
+    "9ff70359-838f-43d9-af8a-5e76270ed1d1": {
+      "type": "js.quiz-result-band",
+      "props": {
+        "maxPercent": 100,
+        "minPercent": 86,
+        "overallLevel": "Industry Leading",
+        "categoryLevel": "Leading",
+        "executiveSummary": "{company} operates at the leading edge. Even here, {topGaps} represent the delta between strong and dominant. {weakest} at {weakestPercent}% is the refinement opportunity. This report targets the moves that sustain competitive separation and maximize portfolio value."
+      }
+    },
+    "141c5604-3c5c-4c51-b199-af1391a3f1ad": {
+      "type": "js.quiz-result-band",
+      "props": {
+        "summary": "At {percent}%, your software monetization practice is commercially exposed. Peer vendors benchmark materially higher across {?belowCount>3|nearly every|multiple} dimension{?belowCount!=1|s|}, with the widest gaps in {pattern}. In practical terms, this means pricing power is limited, fulfillment cycles are likely manual, and cross-sell opportunities go unrealized — compounding into measurable margin erosion with each quarter.",
+        "maxPercent": 39,
+        "minPercent": 0
+      }
+    },
+    "b0739cc8-29a8-4bb0-b9b2-f1561b352aec": {
+      "type": "js.quiz-result-band",
+      "props": {
+        "summary": "At {percent}%, your organization has foundational monetization capabilities but is underperforming the vendor benchmark where it matters most — {pattern}. {weakest} at {weakestPercent}% is the sharpest constraint, but {?belowCount>2|{belowCount} dimensions trailing peers signals|gaps across key areas signal} a systemic issue rather than an isolated one. Competitors with stronger automation and pricing flexibility are converting the same pipeline at higher deal values.",
+        "maxPercent": 59,
+        "minPercent": 40
+      }
+    },
+    "ac5f69b4-ecd8-4277-a80e-5c34ca60e50e": {
+      "type": "js.quiz-result-band",
+      "props": {
+        "summary": "At {percent}%, your monetization maturity is above the industry midpoint, with particular strength in {strongest} ({strongestPercent}%). The remaining gaps — led by {weakest} at {weakestPercent}% — sit in {pattern} and represent the delta between solid execution and competitive differentiation. Closing these moves the needle on expansion revenue, price realization, and customer retention simultaneously.",
+        "maxPercent": 79,
+        "minPercent": 60
+      }
+    },
+    "b639808a-cf98-4e8b-89c4-c193352e2857": {
+      "type": "js.quiz-result-band",
+      "props": {
+        "summary": "At {percent}%, your monetization practice outperforms the majority of software vendors, with {strongest} at {strongestPercent}% anchoring a strong position. The refinement opportunities in {weakest} ({weakestPercent}%) are narrow but high-leverage — addressing them protects your lead as competitors invest in the same capabilities and positions you for premium pricing and deeper portfolio attach.",
+        "maxPercent": 100,
+        "minPercent": 80
+      }
+    },
+    "d28b431b-4b80-470a-9378-cb4aa4457f91": {
+      "type": "js.quiz-result-band",
+      "props": {
+        "maxPercent": 30,
+        "minPercent": 0,
+        "upliftText": "Organizations at your maturity level have the most headroom for growth. By addressing the fundamentals — flexible pricing, automation, and portfolio bundling — you could unlock significant revenue that is currently being left on the table through rigid licensing and manual processes.",
+        "upliftMaximum": "15%+",
+        "upliftExpected": "8–12%"
+      }
+    },
+    "62efcc13-18de-4b2e-a242-f8f413b32439": {
+      "type": "js.quiz-result-band",
+      "props": {
+        "maxPercent": 50,
+        "minPercent": 31,
+        "upliftText": "You have solid growth potential. 55% of vendors in a similar position expect 6–10% revenue uplift from implementing a full portfolio monetization strategy, with 19% expecting more than 10%. Prioritizing automation and cross-portfolio licensing will deliver the fastest returns.",
+        "upliftMaximum": "12–15%",
+        "upliftExpected": "6–10%"
+      }
+    },
+    "f5192499-4c0c-44fb-9518-e7bf977540a1": {
+      "type": "js.quiz-result-band",
+      "props": {
+        "maxPercent": 70,
+        "minPercent": 51,
+        "upliftText": "Your organization is positioned to capture meaningful incremental revenue by optimizing your existing approach. The biggest opportunities lie in advanced pricing models (usage-based, outcome-based) and deeper cross-portfolio integration.",
+        "upliftMaximum": "10–12%",
+        "upliftExpected": "4–8%"
+      }
+    },
+    "327e521e-ebac-4d0e-9f0d-68af834a9f54": {
+      "type": "js.quiz-result-band",
+      "props": {
+        "maxPercent": 100,
+        "minPercent": 71,
+        "upliftText": "As a mature organization, your gains will come from optimization rather than transformation. Focus on AI monetization, predictive analytics for upsell, and innovative pricing models to capture premium value.",
+        "upliftMaximum": "6–8%",
+        "upliftExpected": "2–5%"
+      }
+    },
+    "85bdde65-2478-42b8-921a-76fb1941e87b": {
+      "type": "js.quiz-report",
+      "props": {
+        "ctaText": "Thales Software Monetization solutions help you protect, package, and monetize your software with industry-leading licensing and entitlement management technology.",
+        "tagline": "Building a future we can all trust",
+        "ctaHeading": "Ready to Accelerate Your Software Monetization?",
+        "reportTitle": "Software Monetization",
+        "ctaLinkLabel": "cpl.thalesgroup.com/software-monetization",
+        "websiteLabel": "cpl.thalesgroup.com",
+        "copyrightText": "© 2026 Thales Group",
+        "fileNamePrefix": "Thales_Software_Monetization_Assessment",
+        "benchmarkSource": "Based on survey of 300 software vendors, January 2026",
+        "reportTitleAccent": "Readiness Assessment"
+      },
+      "slots": {
+        "nextSteps": [
+          "dca46a2e-ebc7-4e7e-b016-37231a8d4dea",
+          "1bb9deac-f1cc-4233-8631-4506b148f0f4",
+          "65062570-7174-4b34-91b8-c73f2615b030",
+          "65b3bc21-b700-4b61-9e85-b3749bb361cc"
+        ]
+      }
+    },
+    "dca46a2e-ebc7-4e7e-b016-37231a8d4dea": {
+      "type": "js.quiz-next-step",
+      "props": {
+        "title": "Share This Report",
+        "detail": "Circulate this report among your leadership team at {company}. Alignment on current maturity and target state is essential before investing in changes."
+      }
+    },
+    "1bb9deac-f1cc-4233-8631-4506b148f0f4": {
+      "type": "js.quiz-next-step",
+      "props": {
+        "title": "Prioritize Quick Wins",
+        "detail": "Start with the low-effort, high-impact actions from the Priority Action Plan. These build momentum and demonstrate value quickly — often within 30–60 days."
+      }
+    },
+    "65062570-7174-4b34-91b8-c73f2615b030": {
+      "type": "js.quiz-next-step",
+      "props": {
+        "title": "Assess Your Technology Stack",
+        "detail": "Evaluate whether your current licensing tools can support the models and automation levels you need. 61% of vendors rely on proprietary in-house tools, which often become the bottleneck."
+      }
+    },
+    "65b3bc21-b700-4b61-9e85-b3749bb361cc": {
+      "type": "js.quiz-next-step",
+      "props": {
+        "title": "Engage Thales Software Monetization",
+        "detail": "Thales helps software vendors protect, package, and monetize their software with industry-leading licensing and entitlement management solutions. Request a personalized consultation to map these findings to a concrete implementation plan."
+      }
+    }
+  }
+}

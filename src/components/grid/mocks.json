@@ -1,0 +1,42 @@
+{
+  "mocks": [
+    {
+      "name": "Three feature cards",
+      "props": {
+        "columns": "three"
+      },
+      "slots": {
+        "items": ["f1", "f2", "f3"]
+      },
+      "elements": {
+        "f1": {
+          "type": "feature-card",
+          "props": {
+            "icon": "shield",
+            "heading": "Trust",
+            "text": "Proven ability to secure critical keys.",
+            "align": "center"
+          }
+        },
+        "f2": {
+          "type": "feature-card",
+          "props": {
+            "icon": "sparkles",
+            "heading": "Innovation",
+            "text": "A clear strategy for crypto agility and PQC.",
+            "align": "center"
+          }
+        },
+        "f3": {
+          "type": "feature-card",
+          "props": {
+            "icon": "gauge",
+            "heading": "Operational Excellence",
+            "text": "Experience and resilience at enterprise scale.",
+            "align": "center"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "mocks": [
+    {
+      "name": "Ring chart",
+      "props": {
+        "display": "ring",
+        "value": 59,
+        "suffix": "%",
+        "maxValue": 100,
+        "label": "of organizations are prototyping and evaluating PQC algorithms",
+        "source": "Thales Data Threat Report, 2026"
+      }
+    }
+  ]
+}

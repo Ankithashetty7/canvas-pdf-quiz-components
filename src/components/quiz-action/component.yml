@@ -1,0 +1,62 @@
+name: Quiz Action
+machineName: quiz-action
+status: true
+required:
+  - appliesWhen
+  - action
+props:
+  properties:
+    appliesWhen:
+      type: string
+      enum:
+        - below_benchmark
+        - above_benchmark
+      meta:enum:
+        below_benchmark: Below vendor benchmark
+        above_benchmark: At or above vendor benchmark
+      title: Applies When
+      examples:
+        - below_benchmark
+    action:
+      type: string
+      title: Action
+      examples:
+        - Audit your deployment options and customer demand
+    impact:
+      type: string
+      enum:
+        - high
+        - medium
+        - low
+      meta:enum:
+        high: High
+        medium: Medium
+        low: Low
+      title: Impact
+      examples:
+        - high
+    effort:
+      type: string
+      enum:
+        - high
+        - medium
+        - low
+      meta:enum:
+        high: High
+        medium: Medium
+        low: Low
+      title: Effort
+      examples:
+        - low
+    timeframe:
+      type: string
+      title: Timeframe
+      examples:
+        - 30 days
+    detail:
+      type: string
+      title: Detail
+      examples:
+        - Survey your top 20 customers on unmet deployment needs.
+slots: {}
+dataDependencies: {}

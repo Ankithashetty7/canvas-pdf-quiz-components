@@ -1,0 +1,94 @@
+name: Guide Section
+machineName: guide-section
+status: true
+required:
+  - theme
+props:
+  properties:
+    theme:
+      type: string
+      enum:
+        - light
+        - mist
+        - dark
+        - deep
+        - gradient
+      meta:enum:
+        light: Light
+        mist: Mist
+        dark: Dark
+        deep: Deep
+        gradient: Gradient
+      title: Theme
+      examples:
+        - light
+    anchorId:
+      type: string
+      title: Anchor ID
+      description: Enables the section in the guide menu and deep links (#anchor-id).
+      examples:
+        - introduction
+    navLabel:
+      type: string
+      title: Nav Label
+      description: Label in the guide menu. Defaults to the heading.
+      examples:
+        - Introduction
+    number:
+      type: string
+      title: Number
+      examples:
+        - '01'
+    eyebrow:
+      type: string
+      title: Eyebrow
+      examples:
+        - Introduction
+    heading:
+      type: string
+      title: Heading
+      examples:
+        - The Evolving Role of HSMs
+    intro:
+      type: string
+      title: Intro
+      examples:
+        - Cryptography has become foundational to the modern enterprise.
+    width:
+      type: string
+      enum:
+        - narrow
+        - normal
+        - wide
+      meta:enum:
+        narrow: Narrow
+        normal: Normal
+        wide: Wide
+      title: Width
+      examples:
+        - normal
+    align:
+      type: string
+      enum:
+        - left
+        - center
+      meta:enum:
+        left: Left
+        center: Center
+      title: Align
+      examples:
+        - left
+    backgroundImage:
+      type: object
+      $ref: json-schema-definitions://canvas.module/image
+      title: Background Image
+    parallax:
+      type: boolean
+      title: Parallax
+      description: Moves the background image slower than the page.
+      examples:
+        - false
+slots:
+  content:
+    title: Content
+dataDependencies: {}

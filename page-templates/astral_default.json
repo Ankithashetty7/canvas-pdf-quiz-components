@@ -1,0 +1,11 @@
+{
+  "label": "Default",
+  "status": true,
+  "default": true,
+  "elements": {
+    "674070c2-d70b-44d1-aebd-f97d99a5c098": {
+      "type": "marker.page_content",
+      "props": {}
+    }
+  }
+}

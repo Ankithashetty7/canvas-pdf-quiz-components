@@ -1,0 +1,39 @@
+name: Quiz Category
+machineName: quiz-category
+status: true
+required:
+  - name
+props:
+  properties:
+    name:
+      type: string
+      title: Name
+      description: Questions reference this name in their Category field.
+      examples:
+        - Portfolio Structure
+    focusArea:
+      type: string
+      title: Focus Area
+      description: Groups categories for the results summary, e.g. "operational
+        execution and delivery infrastructure". Available as the {pattern}
+        token.
+      examples:
+        - operational execution and delivery infrastructure
+    vendorBenchmark:
+      type: integer
+      title: Vendor Benchmark
+      description: Industry vendor average, in percent.
+      examples:
+        - 58
+    customerBenchmark:
+      type: integer
+      title: Customer Benchmark
+      description: Customer expectation, in percent.
+      examples:
+        - 52
+slots:
+  tiers:
+    title: Tiers
+  actions:
+    title: Actions
+dataDependencies: {}

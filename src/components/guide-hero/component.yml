@@ -1,0 +1,73 @@
+name: Guide Hero
+machineName: guide-hero
+status: true
+required:
+  - heading
+props:
+  properties:
+    eyebrow:
+      type: string
+      title: Eyebrow
+      examples:
+        - Buyer's Guide
+    heading:
+      type: string
+      title: Heading
+      examples:
+        - How to choose the right HSM vendor
+    headingAccent:
+      type: string
+      title: Heading Accent
+      description: Part of the heading to highlight with the accent gradient.
+      examples:
+        - right HSM
+    subheading:
+      type: string
+      title: Subheading
+      examples:
+        - A practical framework for evaluating Hardware Security Modules in the
+          post-quantum era.
+    backgroundImage:
+      type: object
+      $ref: json-schema-definitions://canvas.module/image
+      title: Background Image
+      examples:
+        - src: https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&q=70
+          alt: Circuit board
+          width: 1600
+          height: 1067
+    backgroundVideo:
+      type: object
+      $ref: json-schema-definitions://canvas.module/video
+      title: Background Video
+      description: Optional looping muted video. Loads after the page and is skipped
+        for reduced-motion visitors.
+    parallax:
+      type: boolean
+      title: Parallax
+      examples:
+        - true
+    primaryLabel:
+      type: string
+      title: Primary Label
+      examples:
+        - Start reading
+    primaryLink:
+      type: string
+      format: uri-reference
+      title: Primary Link
+      examples:
+        - /guide#introduction
+    secondaryLabel:
+      type: string
+      title: Secondary Label
+      examples:
+        - Download PDF
+    secondaryLink:
+      type: string
+      format: uri-reference
+      title: Secondary Link
+      examples:
+        - /sites/default/files/guide.pdf
+slots: {}
+dataDependencies: {}

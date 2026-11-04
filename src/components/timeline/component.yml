@@ -1,0 +1,10 @@
+name: Timeline
+machineName: timeline
+status: true
+required: []
+props:
+  properties: {}
+slots:
+  items:
+    title: Items
+dataDependencies: {}

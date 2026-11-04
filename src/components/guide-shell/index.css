@@ -1,0 +1,34 @@
+@media print {
+  .guide-shell [data-guide-chrome] {
+    display: none !important;
+  }
+
+  .guide-shell,
+  .guide-shell * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Reveal animations and tab panels print in their final, visible state. */
+  .guide-shell [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .guide-shell [data-tab-panel][hidden] {
+    display: block !important;
+  }
+
+  .guide-shell [data-guide-section] {
+    break-inside: avoid-page;
+    min-height: 0 !important;
+  }
+
+  .guide-shell [data-print-avoid-break] {
+    break-inside: avoid;
+  }
+
+  .guide-shell video {
+    display: none !important;
+  }
+}

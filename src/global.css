@@ -1,12 +1,11 @@
 /*
  * Ensure your theme imports the font you're using in this file.
  * Alternatively, you can load fonts purely in Code Components by importing a
- * CSS file with the font declarations from a URL, i.e. a CDN. For example, you
- * can uncomment the following line to use the Inter font.
+ * CSS file with the font declarations from a URL, i.e. a CDN.
  * For local development, Workbench loads the global CSS file configured in
  * canvas.config.json.
  */
-/* @import url("https://rsms.me/inter/inter.css"); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 @import 'tailwindcss';
 
@@ -47,8 +46,72 @@
   /* use for light and dark default text */
   --color-white: #ffffff;
   --color-black: var(--color-slate-950);
+
+  /* Brand: assessment / quiz experiences */
+  --color-navy: #1b1464;
+  --color-navy-mid: #1e1878;
+  --color-navy-light: #221d8a;
+  --color-navy-deep: #0f0c3d;
+  --color-teal: #00b0b9;
+  --color-teal-dark: #009da5;
+  --color-ink: #1e1e32;
+  --color-surface: #f7f8fc;
+
+  /* Brand: long-form interactive guides */
+  --color-guide-ink: #080f5c;
+  --color-guide-deep: #0c0b36;
+  --color-guide-royal: #0c2796;
+  --color-guide-cobalt: #1f54ae;
+  --color-guide-mint: #47d0b9;
+  --color-guide-cyan: #35c3c3;
+  --color-guide-mist: #f3f4f8;
+  --color-guide-haze: #abb9d0;
+
+  --animate-slide-in: slide-in 0.25s ease;
+  --animate-fade-up: fade-up 0.6s ease both;
+  --animate-toast-in: toast-in 0.25s ease;
+
+  @keyframes slide-in {
+    from {
+      opacity: 0;
+      transform: translateX(24px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(24px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  @keyframes toast-in {
+    from {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
 }
 
 html {
   @apply text-slate-950;
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }

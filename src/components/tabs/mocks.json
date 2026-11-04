@@ -1,0 +1,73 @@
+{
+  "mocks": [
+    {
+      "name": "Vertical scenarios",
+      "props": {
+        "orientation": "vertical",
+        "label": "Buying scenarios"
+      },
+      "slots": {
+        "panels": ["p1", "p2", "p3"]
+      },
+      "elements": {
+        "p1": {
+          "type": "tab-panel",
+          "props": {
+            "label": "Enterprise encryption",
+            "icon": "lock",
+            "heading": "Enterprise encryption and key management",
+            "text": "Emphasis on centralized control, strong key protection, and seamless deployment across on-premises and cloud environments."
+          }
+        },
+        "p2": {
+          "type": "tab-panel",
+          "props": {
+            "label": "PKI & certificate authorities",
+            "icon": "key",
+            "heading": "PKI and certificate authorities",
+            "text": "Focus on key custody, lifecycle governance, auditability, and strict separation of administrative roles."
+          }
+        },
+        "p3": {
+          "type": "tab-panel",
+          "props": {
+            "label": "Payments",
+            "icon": "coins",
+            "heading": "Payment and financial services",
+            "text": "High throughput, low latency, certification alignment, and resilience for regulated transaction environments."
+          }
+        }
+      }
+    },
+    {
+      "name": "Horizontal",
+      "props": {
+        "orientation": "horizontal",
+        "label": "Options"
+      },
+      "slots": {
+        "panels": ["h1", "h2"]
+      },
+      "elements": {
+        "h1": {
+          "type": "tab-panel",
+          "props": {
+            "label": "Cloud",
+            "icon": "cloud",
+            "heading": "Cloud and hybrid",
+            "text": "Consistent controls across environments."
+          }
+        },
+        "h2": {
+          "type": "tab-panel",
+          "props": {
+            "label": "Digital assets",
+            "icon": "network",
+            "heading": "Digital assets and blockchain",
+            "text": "Strong key isolation and scalable custody models."
+          }
+        }
+      }
+    }
+  ]
+}

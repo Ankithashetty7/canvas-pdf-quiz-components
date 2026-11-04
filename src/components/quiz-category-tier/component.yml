@@ -1,0 +1,49 @@
+name: Quiz Category Tier
+machineName: quiz-category-tier
+status: true
+required:
+  - tier
+props:
+  properties:
+    tier:
+      type: string
+      enum:
+        - low
+        - mid
+        - high
+      meta:enum:
+        low: Low
+        mid: Mid
+        high: High
+      title: Tier
+      description: Which score band this content applies to (see the quiz's Low/Mid
+        Tier Max).
+      examples:
+        - low
+    insight:
+      type: string
+      title: Insight
+      description: Short insight shown on the free results page.
+      examples:
+        - Your limited product range restricts cross-sell opportunities.
+          Consider expanding deployment options.
+    whatItMeans:
+      type: string
+      title: What It Means
+      description: Paragraph for the PDF report. Use {company} for the visitor's company.
+      examples:
+        - "{company}'s limited product portfolio restricts your ability to serve
+          diverse customer needs."
+    recommendations:
+      type: string
+      contentMediaType: text/html
+      x-formatting-context: block
+      title: Recommendations
+      description: Bulleted list. The first two show on the full results page; all
+        appear in the PDF.
+      examples:
+        - <ul><li>Survey your top 20 customers to understand unmet deployment
+          needs.</li><li>Map which customer segments need cloud, on-premises, or
+          hybrid access.</li></ul>
+slots: {}
+dataDependencies: {}

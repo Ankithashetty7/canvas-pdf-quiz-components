@@ -1,0 +1,56 @@
+{
+  "mocks": [
+    {
+      "name": "Dark with stat",
+      "props": {
+        "theme": "gradient",
+        "anchorId": "driving-change",
+        "navLabel": "What is driving change",
+        "eyebrow": "Post-quantum migration is already in motion",
+        "heading": "What Is Driving Change in HSM Selection"
+      },
+      "slots": {
+        "content": ["g"]
+      },
+      "elements": {
+        "g": {
+          "type": "grid",
+          "props": {
+            "columns": "split",
+            "gap": "wide",
+            "align": "center"
+          },
+          "slots": {
+            "items": ["t", "s"]
+          }
+        },
+        "t": {
+          "type": "rich-text",
+          "props": {
+            "size": "lead",
+            "text": "<p>HSM selection is becoming a strategic infrastructure decision.</p>"
+          }
+        },
+        "s": {
+          "type": "stat-counter",
+          "props": {
+            "display": "ring",
+            "value": 59,
+            "suffix": "%",
+            "label": "of organizations are prototyping PQC algorithms",
+            "source": "Thales Data Threat Report, 2026"
+          }
+        }
+      }
+    },
+    {
+      "name": "Numbered light",
+      "props": {
+        "theme": "light",
+        "number": "01",
+        "heading": "Key Protection and Hardware Root of Trust",
+        "intro": "At the center of any HSM evaluation is the hardware root of trust."
+      }
+    }
+  ]
+}

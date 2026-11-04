@@ -1,0 +1,40 @@
+{
+  "mocks": [
+    {
+      "name": "Then and now",
+      "props": {},
+      "slots": {
+        "items": ["t1", "t2", "t3"]
+      },
+      "elements": {
+        "t1": {
+          "type": "timeline-item",
+          "props": {
+            "label": "Then",
+            "heading": "What HSMs have traditionally supported",
+            "icon": "lock",
+            "text": "Certificate authority protection, payment security, code signing, and compliance-driven encryption."
+          }
+        },
+        "t2": {
+          "type": "timeline-item",
+          "props": {
+            "label": "Now",
+            "heading": "What HSMs need to support now",
+            "icon": "cloud",
+            "text": "Trust-sensitive operations across cloud, hybrid, and on-premises environments."
+          }
+        },
+        "t3": {
+          "type": "timeline-item",
+          "props": {
+            "label": "Why it matters",
+            "heading": "The foundation of digital trust",
+            "icon": "shield",
+            "text": "HSMs are no longer simply secure key vaults."
+          }
+        }
+      }
+    }
+  ]
+}

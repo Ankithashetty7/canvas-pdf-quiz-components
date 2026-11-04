@@ -1,0 +1,56 @@
+name: Guide Shell
+machineName: guide-shell
+status: true
+required:
+  - title
+props:
+  properties:
+    title:
+      type: string
+      title: Title
+      examples:
+        - HSM Buyer's Guide
+    brandName:
+      type: string
+      title: Brand Name
+      examples:
+        - Thales
+    description:
+      type: string
+      title: Description
+      description: Used for the structured data (JSON-LD) that search and AI engines read.
+      examples:
+        - How to evaluate and choose the right Hardware Security Module vendor.
+    publishedDate:
+      type: string
+      title: Published Date
+      description: ISO date, e.g. 2026-09-01.
+      examples:
+        - 2026-09-01
+    pdfUrl:
+      type: string
+      format: uri-reference
+      title: PDF URL
+      description: Optional link to the original PDF.
+      examples:
+        - /sites/default/files/guide.pdf
+    showShare:
+      type: boolean
+      title: Show Share
+      examples:
+        - true
+    showPrint:
+      type: boolean
+      title: Show Print
+      examples:
+        - true
+    showSectionDots:
+      type: boolean
+      title: Show Section Dots
+      description: Side navigation dots on wide screens.
+      examples:
+        - true
+slots:
+  content:
+    title: Content
+dataDependencies: {}

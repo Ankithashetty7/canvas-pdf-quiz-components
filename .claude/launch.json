@@ -1,0 +1,16 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "workbench",
+      "runtimeExecutable": "/usr/bin/env",
+      "runtimeArgs": [
+        "PATH=/Users/ankitha.shetty/.nvm/versions/node/v22.23.2/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin",
+        "npm",
+        "run",
+        "dev"
+      ],
+      "port": 5173
+    }
+  ]
+}

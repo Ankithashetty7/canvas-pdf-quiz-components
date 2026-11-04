@@ -1,0 +1,1478 @@
+{
+  "uuid": "e415e73c-7892-4c6f-8b5f-67e78d0bb328",
+  "title": "(Not for demo) HSM Buyer's Guide",
+  "path": "/hsm-buyers-guide",
+  "description": "How to evaluate and choose the right Hardware Security Module (HSM) vendor.",
+  "elements": {
+    "4d1bb640-2014-459d-89a3-5fed27f63f54": {
+      "type": "js.guide-shell",
+      "props": {
+        "title": "HSM Buyer's Guide",
+        "pdfUrl": "https://cpl.thalesgroup.com/sites/default/files/content/ebooks/hsm-buyers-guide-how-to-evaluate-and-choose-the-right-hardware-security-module-vendor-eb.pdf",
+        "brandName": "Thales",
+        "showPrint": true,
+        "showShare": true,
+        "description": "How to evaluate and choose the right Hardware Security Module (HSM) vendor: ten evaluation criteria, buying scenarios, and a vendor comparison scorecard.",
+        "publishedDate": "2026-09-08",
+        "showSectionDots": true
+      },
+      "slots": {
+        "content": [
+          "4e20d8d0-d848-4b88-b216-8c7c9d2c1016",
+          "f1bad058-f484-4494-bc82-331acc0171ce",
+          "0be63fb3-4bdd-450a-b746-c314220d027e",
+          "dbf5d458-7f74-450d-afdf-02e04a624716",
+          "904398eb-f27d-48e9-80cb-56ed9a04f350",
+          "204a7dc9-0a15-486b-b2fc-d054a8739b56",
+          "891db6c0-e686-417e-ae26-b714904a7569",
+          "a6ee64ce-b734-442c-bdf5-bbf94b7a7109",
+          "7dfe5c79-6638-4187-ab05-2f6f0d61e3b0",
+          "a6a56453-178b-42ff-9754-21f7b868e0ef",
+          "31460f58-aba3-4c2f-8464-a8da20a3702f"
+        ]
+      }
+    },
+    "4e20d8d0-d848-4b88-b216-8c7c9d2c1016": {
+      "type": "js.guide-hero",
+      "props": {
+        "eyebrow": "Thales HSM Buyer's Guide",
+        "heading": "How to evaluate and choose the right Hardware Security Module vendor",
+        "parallax": true,
+        "subheading": "A practical, ten-point framework for selecting an HSM that protects today’s keys and stays ready for post-quantum cryptography.",
+        "primaryLink": "#driving-change",
+        "primaryLabel": "Start reading",
+        "headingAccent": "the right Hardware Security Module",
+        "secondaryLink": "https://cpl.thalesgroup.com/sites/default/files/content/ebooks/hsm-buyers-guide-how-to-evaluate-and-choose-the-right-hardware-security-module-vendor-eb.pdf",
+        "secondaryLabel": "Download the PDF",
+        "backgroundImage": {
+          "src": "/sites/default/files/2026-09/media_2.jpg?alternateWidths=/sites/default/files/styles/canvas_parametrized_width--%7Bwidth%7D/public/2026-09/media_2.jpg.avif%3Fitok%3D3pAUVKvC",
+          "alt": "Glowing Thales security chip on a circuit board",
+          "width": 1200,
+          "height": 680
+        }
+      },
+      "_provenance": {
+        "backgroundImage": {
+          "target_id": 21
+        }
+      }
+    },
+    "f1bad058-f484-4494-bc82-331acc0171ce": {
+      "type": "js.guide-section",
+      "props": {
+        "theme": "gradient",
+        "eyebrow": "Post-quantum migration is already in motion",
+        "heading": "What Is Driving Change in HSM Selection",
+        "anchorId": "driving-change",
+        "navLabel": "What is driving change"
+      },
+      "slots": {
+        "content": [
+          "ad679d9a-2552-497c-9591-3fb12f4a138b",
+          "4021d925-4c7f-4ae2-bbc0-88cde7d631ec",
+          "cc43a663-45c7-492f-a929-5de74449f57c",
+          "48d8234f-4dfa-4201-b1d3-728c8aa31220"
+        ]
+      }
+    },
+    "ad679d9a-2552-497c-9591-3fb12f4a138b": {
+      "type": "js.grid",
+      "props": {
+        "gap": "wide",
+        "align": "center",
+        "columns": "split"
+      },
+      "slots": {
+        "items": [
+          "f38ed274-9678-49f1-8119-93f6118a1c21",
+          "c1d609d5-db68-4ce6-ac6b-94e5b021354d"
+        ]
+      }
+    },
+    "f38ed274-9678-49f1-8119-93f6118a1c21": {
+      "type": "js.rich-text",
+      "props": {
+        "size": "lead",
+        "text": "<p>As organizations prepare for post-quantum migration, HSM selection is becoming a strategic infrastructure decision. Hardware Security Modules (HSMs) provide the hardware root of trust needed to generate, protect, and manage cryptographic keys, making them central to secure migration planning.</p>"
+      }
+    },
+    "c1d609d5-db68-4ce6-ac6b-94e5b021354d": {
+      "type": "js.stat-counter",
+      "props": {
+        "label": "of organizations are prototyping and evaluating PQC algorithms",
+        "value": 59,
+        "source": "Thales Data Threat Report, 2026",
+        "suffix": "%",
+        "display": "ring",
+        "maxValue": 100
+      }
+    },
+    "4021d925-4c7f-4ae2-bbc0-88cde7d631ec": {
+      "type": "js.grid",
+      "props": {
+        "gap": "wide",
+        "align": "center",
+        "spaced": true,
+        "columns": "split"
+      },
+      "slots": {
+        "items": [
+          "ae6bc669-e768-4b6e-bd61-0755ec1ff19b",
+          "c6112e74-f10d-42e2-8226-3bf0fe494860"
+        ]
+      }
+    },
+    "ae6bc669-e768-4b6e-bd61-0755ec1ff19b": {
+      "type": "js.rich-text",
+      "props": {
+        "text": "<p>Broader shifts are also reshaping HSM requirements, including rising security and compliance demands driven by AI, cloud, and increasingly complex digital environments.</p><p>For buyers, these changes raise the importance of architectural readiness, crypto agility, deployment flexibility, roadmap maturity, and long-term adaptability in HSM evaluation.</p>"
+      }
+    },
+    "c6112e74-f10d-42e2-8226-3bf0fe494860": {
+      "type": "js.pull-quote",
+      "props": {
+        "size": "large",
+        "quote": "Quantum safe by design requires the entire HSM internal stack and operating model to be designed around PQC capability, trust, and agility, not just added PQC algorithms.",
+        "source": "Hardware Security Modules, Market Data Overview: 2Q 2026",
+        "attribution": "ABI Research"
+      }
+    },
+    "cc43a663-45c7-492f-a929-5de74449f57c": {
+      "type": "js.rich-text",
+      "props": {
+        "size": "lead",
+        "text": "This guide helps buyers:"
+      }
+    },
+    "48d8234f-4dfa-4201-b1d3-728c8aa31220": {
+      "type": "js.grid",
+      "props": {
+        "columns": "four"
+      },
+      "slots": {
+        "items": [
+          "42ffc8ab-dc04-4647-87cb-7c6b30121565",
+          "53d752a3-0cd4-45dc-8a72-fada484bf80f",
+          "d37ba9a9-72a7-4c0c-b49f-f18d0a0331f0",
+          "de2cd424-1b9a-4abc-b33c-b192b22948ab"
+        ]
+      }
+    },
+    "42ffc8ab-dc04-4647-87cb-7c6b30121565": {
+      "type": "js.feature-card",
+      "props": {
+        "icon": "refresh",
+        "text": "How HSM requirements are changing, including why hardware-based trust remains critical for future cryptographic needs.",
+        "heading": "Understand change"
+      }
+    },
+    "53d752a3-0cd4-45dc-8a72-fada484bf80f": {
+      "type": "js.feature-card",
+      "props": {
+        "icon": "target",
+        "text": "What matters most in a modern HSM.",
+        "heading": "Identify priorities"
+      }
+    },
+    "d37ba9a9-72a7-4c0c-b49f-f18d0a0331f0": {
+      "type": "js.feature-card",
+      "props": {
+        "icon": "scale",
+        "text": "Compare vendors more effectively with a shared framework.",
+        "heading": "Compare vendors"
+      }
+    },
+    "de2cd424-1b9a-4abc-b33c-b192b22948ab": {
+      "type": "js.feature-card",
+      "props": {
+        "icon": "check",
+        "text": "Choose the right HSM for your security, compliance, and operational needs.",
+        "heading": "Choose confidently"
+      }
+    },
+    "0be63fb3-4bdd-450a-b746-c314220d027e": {
+      "type": "js.guide-section",
+      "props": {
+        "theme": "light",
+        "eyebrow": "Introduction",
+        "heading": "The Evolving Role of HSMs",
+        "anchorId": "introduction",
+        "navLabel": "Introduction"
+      },
+      "slots": {
+        "content": [
+          "69fc9099-4f14-4366-a335-6641173514b2",
+          "244a8f32-7eca-4988-a511-864baeb2cd55",
+          "9b18bd59-8a9c-4d67-8ed8-9227a4c597f4"
+        ]
+      }
+    },
+    "69fc9099-4f14-4366-a335-6641173514b2": {
+      "type": "js.grid",
+      "props": {
+        "gap": "wide",
+        "align": "center",
+        "columns": "split"
+      },
+      "slots": {
+        "items": [
+          "add172ac-9942-4fd7-bc8a-957964a8477e",
+          "fb972696-0e96-4a9d-ba94-97e0b066b183"
+        ]
+      }
+    },
+    "add172ac-9942-4fd7-bc8a-957964a8477e": {
+      "type": "js.rich-text",
+      "props": {
+        "size": "lead",
+        "text": "<p>Cryptography has become foundational to the modern enterprise, protecting everything from digital signatures and secure communications to software integrity, machine identities, payment systems, and digital asset ecosystems.</p>"
+      }
+    },
+    "fb972696-0e96-4a9d-ba94-97e0b066b183": {
+      "type": "js.figure",
+      "props": {
+        "image": {
+          "src": "/sites/default/files/2026-09/media.jpg?alternateWidths=/sites/default/files/styles/canvas_parametrized_width--%7Bwidth%7D/public/2026-09/media.jpg.avif%3Fitok%3DOacIu0fK",
+          "alt": "Engineer working on a laptop in a data center",
+          "width": 1100,
+          "height": 650
+        },
+        "aspect": "landscape",
+        "parallax": true
+      },
+      "_provenance": {
+        "image": {
+          "target_id": 6
+        }
+      }
+    },
+    "244a8f32-7eca-4988-a511-864baeb2cd55": {
+      "type": "js.grid",
+      "props": {
+        "spaced": true,
+        "columns": "two"
+      },
+      "slots": {
+        "items": [
+          "6f50e1fe-0cd1-4bc3-81c5-33e962aab924"
+        ]
+      }
+    },
+    "6f50e1fe-0cd1-4bc3-81c5-33e962aab924": {
+      "type": "js.callout",
+      "props": {
+        "text": "<p>Organizations are no longer choosing only a security product, but a solution that shapes how trust is established and maintained across critical systems.</p>",
+        "title": "The Shift",
+        "variant": "note"
+      }
+    },
+    "9b18bd59-8a9c-4d67-8ed8-9227a4c597f4": {
+      "type": "js.grid",
+      "props": {
+        "spaced": true,
+        "columns": "one"
+      },
+      "slots": {
+        "items": [
+          "7a9dc6da-bb71-4715-a411-5c4a5cfd646f"
+        ]
+      }
+    },
+    "7a9dc6da-bb71-4715-a411-5c4a5cfd646f": {
+      "type": "js.rich-text",
+      "props": {
+        "text": "<p>As organizations rely on cryptography more deeply, the demands on the infrastructure used to secure and manage cryptographic operations continue to grow. Hardware Security Modules (HSMs) play a critical role by providing a hardware root of trust for sensitive operations across applications, data, identities, and transactions.</p><p>The environment around cryptography is also becoming more complex. Regulatory expectations are rising, multiple deployment models are making key management more difficult, and post-quantum cryptography is moving from a future consideration to a current priority.</p><p>AI adoption is adding further pressure, as models, pipelines, and data flows increasingly depend on strong protection for keys, identities, and integrity. These growing security, compliance, and operational demands are redefining what organizations need from their cryptographic infrastructure.</p><p>Modern HSMs must deliver quantum-resistant, crypto agile security along with the performance and scalability required to protect sensitive data and critical applications. The right HSM must support flexible deployment requirements, strong governance, operational resilience, ecosystem integration, and long-term adaptability.</p>",
+        "columns": "two"
+      }
+    },
+    "dbf5d458-7f74-450d-afdf-02e04a624716": {
+      "type": "js.guide-section",
+      "props": {
+        "theme": "mist",
+        "heading": "Why HSMs Matter More than Ever",
+        "anchorId": "why-hsms-matter",
+        "navLabel": "Why HSMs matter"
+      },
+      "slots": {
+        "content": [
+          "ad79108c-b3ba-4b55-8175-48bfdae700bd"
+        ]
+      }
+    },
+    "ad79108c-b3ba-4b55-8175-48bfdae700bd": {
+      "type": "js.grid",
+      "props": {
+        "gap": "wide",
+        "align": "center",
+        "columns": "split"
+      },
+      "slots": {
+        "items": [
+          "06258e36-28cb-4335-8feb-4b8c3e2725b2",
+          "09497f68-9130-4933-ae6d-0d06f5893b51"
+        ]
+      }
+    },
+    "06258e36-28cb-4335-8feb-4b8c3e2725b2": {
+      "type": "js.timeline",
+      "props": {},
+      "slots": {
+        "items": [
+          "000caf2c-bdd3-4802-ad2f-0cf72b333c58",
+          "8d7c7b33-f1c8-4558-9866-c71f29ef1400",
+          "86d3ef5a-85e0-4afe-beb6-2d5053447ce1",
+          "42bfc7d7-f8e8-4079-b074-f5d1d0a83d28"
+        ]
+      }
+    },
+    "000caf2c-bdd3-4802-ad2f-0cf72b333c58": {
+      "type": "js.timeline-item",
+      "props": {
+        "icon": "chip",
+        "text": "Tamper-resistant hardware devices that generate, protect, store, and use cryptographic keys within a secure boundary. They serve as the hardware root of trust for sensitive cryptographic operations, helping organizations strengthen key security, maintain control, and reduce exposure to both physical and logical attacks.",
+        "label": "The basics",
+        "heading": "What are HSMs?"
+      }
+    },
+    "8d7c7b33-f1c8-4558-9866-c71f29ef1400": {
+      "type": "js.timeline-item",
+      "props": {
+        "icon": "lock",
+        "text": "Focused, high-assurance use cases such as certificate authority protection, payment security, code signing, and compliance-driven encryption — and those remain important today.",
+        "label": "Then",
+        "heading": "What HSMs have traditionally supported"
+      }
+    },
+    "86d3ef5a-85e0-4afe-beb6-2d5053447ce1": {
+      "type": "js.timeline-item",
+      "props": {
+        "icon": "cloud",
+        "text": "A much broader set of trust-sensitive operations across cloud, hybrid, and on-premises environments, including digital identities, software delivery, connected devices, digital assets, emerging AI-driven systems, and growing requirements for crypto agility and post-quantum readiness.",
+        "label": "Now",
+        "heading": "What HSMs need to support now"
+      }
+    },
+    "42bfc7d7-f8e8-4079-b074-f5d1d0a83d28": {
+      "type": "js.timeline-item",
+      "props": {
+        "icon": "shield",
+        "text": "As cryptography becomes more deeply embedded across the enterprise, HSMs are no longer viewed simply as secure key vaults, but as the foundation of digital trust.",
+        "label": "Why it matters",
+        "heading": "The foundation of digital trust"
+      }
+    },
+    "09497f68-9130-4933-ae6d-0d06f5893b51": {
+      "type": "js.stat-counter",
+      "props": {
+        "label": "years that Luna HSMs have led the general-purpose HSM market",
+        "value": 30,
+        "source": "Thales HSM Buyer's Guide",
+        "suffix": "+"
+      }
+    },
+    "904398eb-f27d-48e9-80cb-56ed9a04f350": {
+      "type": "js.guide-section",
+      "props": {
+        "intro": "Selecting an HSM provider requires more than a comparison of specifications, certifications, or price. Buyers need to evaluate whether the vendor has the experience, credibility, and long-term vision to support evolving cryptographic, operational, and regulatory requirements.",
+        "theme": "dark",
+        "width": "wide",
+        "eyebrow": "Top 10",
+        "heading": "Top 10 HSM Evaluation Criteria Buyers Should Consider",
+        "anchorId": "evaluation-criteria",
+        "navLabel": "Top 10 evaluation criteria",
+        "parallax": true,
+        "backgroundImage": {
+          "src": "/sites/default/files/2026-09/media_1.jpg?alternateWidths=/sites/default/files/styles/canvas_parametrized_width--%7Bwidth%7D/public/2026-09/media_1.jpg.avif%3Fitok%3DI5_qQeur",
+          "alt": "Thales HSM on a circuit board",
+          "width": 1400,
+          "height": 625
+        }
+      },
+      "slots": {
+        "content": [
+          "1f491f97-0129-480f-a786-6878dca8b65b",
+          "80ca7a48-a075-4c6e-9b40-d2d12ad5dfae",
+          "402f5996-348d-4563-b67d-7bbc0ae5e042",
+          "7205f89e-0bb0-488b-afbf-2b1d8222a732"
+        ]
+      },
+      "_provenance": {
+        "backgroundImage": {
+          "target_id": 16
+        }
+      }
+    },
+    "1f491f97-0129-480f-a786-6878dca8b65b": {
+      "type": "js.rich-text",
+      "props": {
+        "size": "lead",
+        "text": "The strongest HSM vendors consistently demonstrate three qualities:"
+      }
+    },
+    "80ca7a48-a075-4c6e-9b40-d2d12ad5dfae": {
+      "type": "js.grid",
+      "props": {
+        "columns": "three"
+      },
+      "slots": {
+        "items": [
+          "762dd803-dd83-4f38-bc1f-3e83696bb203",
+          "7ccf3ee3-c93b-4470-ba83-24db59a8d2ec",
+          "34d81537-4329-41ca-9d33-3dded2a1691f"
+        ]
+      }
+    },
+    "762dd803-dd83-4f38-bc1f-3e83696bb203": {
+      "type": "js.feature-card",
+      "props": {
+        "icon": "shield",
+        "text": "Proven ability to secure critical keys, protecting data, users, transactions and applications.",
+        "align": "center",
+        "heading": "Trust"
+      }
+    },
+    "7ccf3ee3-c93b-4470-ba83-24db59a8d2ec": {
+      "type": "js.feature-card",
+      "props": {
+        "icon": "sparkles",
+        "text": "A clear strategy for crypto agility and post-quantum cryptography.",
+        "align": "center",
+        "heading": "Innovation"
+      }
+    },
+    "34d81537-4329-41ca-9d33-3dded2a1691f": {
+      "type": "js.feature-card",
+      "props": {
+        "icon": "gauge",
+        "text": "The experience, ecosystem, and resilience required to support enterprise-scale deployments.",
+        "align": "center",
+        "heading": "Operational Excellence"
+      }
+    },
+    "402f5996-348d-4563-b67d-7bbc0ae5e042": {
+      "type": "js.grid",
+      "props": {
+        "spaced": true,
+        "columns": "split"
+      },
+      "slots": {
+        "items": [
+          "254eedf3-e138-4332-89f1-54e2d2504a2c"
+        ]
+      }
+    },
+    "254eedf3-e138-4332-89f1-54e2d2504a2c": {
+      "type": "js.callout",
+      "props": {
+        "text": "<p>The following ten criteria offer a practical framework for evaluating HSM vendors more effectively. Scroll through each one — the rail tracks where you are.</p>",
+        "title": "A Practical Framework",
+        "variant": "note"
+      }
+    },
+    "7205f89e-0bb0-488b-afbf-2b1d8222a732": {
+      "type": "js.scrolly",
+      "props": {
+        "railTitle": "Evaluation criteria"
+      },
+      "slots": {
+        "steps": [
+          "030a9c8b-a9e5-4782-8b5b-544a82b37f34",
+          "1f0c7c1f-c6de-4531-911a-85eb96bbcd82",
+          "a2443515-0556-4ab2-a4b6-a39dcab5d408",
+          "998753be-2066-42e8-bf84-4abd2e72b20a",
+          "4fde5ef4-1133-4aff-aefe-cd88b344f8c9",
+          "3fb439bd-a233-4851-b2f9-55499b4ec603",
+          "6eef6126-5a9e-497a-b4d6-a0c40e268338",
+          "2b56b4d3-30ae-4c89-89f6-f1d88043bc2e",
+          "f593e5a9-e5e0-4384-9bb9-63427019f927",
+          "fbb84f8b-b20d-441c-a31e-938662dd901a"
+        ]
+      }
+    },
+    "030a9c8b-a9e5-4782-8b5b-544a82b37f34": {
+      "type": "js.scrolly-step",
+      "props": {
+        "text": "<p>At the center of any HSM evaluation is the hardware root of trust, which provides the foundation for secure cryptographic operations. When keys are stored or used solely in software, they are more exposed to compromise through memory scraping, malware, privilege abuse, misconfiguration, and insider threats.</p><p>An HSM reduces this risk by generating, storing, and using keys within a hardened, tamper-resistant boundary. It should generate keys using high-quality entropy, keep keys in hardware by default, and ensure sensitive operations never expose key material outside the HSM. Buyers should look beyond high-level security claims and assess how effectively the HSM isolates key material under both physical and logical attack scenarios.</p>",
+        "label": "Key protection",
+        "number": "01",
+        "heading": "Key Protection and Hardware Root of Trust"
+      },
+      "slots": {
+        "content": [
+          "4ab1989b-96a3-4c98-abed-6e9f5e678afb"
+        ]
+      }
+    },
+    "4ab1989b-96a3-4c98-abed-6e9f5e678afb": {
+      "type": "js.grid",
+      "props": {
+        "gap": "normal",
+        "align": "start",
+        "columns": "two"
+      },
+      "slots": {
+        "items": [
+          "251fa9e8-fbf7-4e0e-8be7-8a223304cc5d",
+          "5d81f068-a98b-4e3c-85cc-07f1f5c0986f"
+        ]
+      }
+    },
+    "251fa9e8-fbf7-4e0e-8be7-8a223304cc5d": {
+      "type": "js.checklist",
+      "props": {
+        "items": "<ul><li>Where private cryptographic keys are stored and how they are generated, including the quality of entropy</li><li>Whether keys remain in hardware by default and are always protected within the HSM</li><li>The strength of protection against physical tampering, logical compromise, and side channel attacks without impacting performance</li></ul>",
+        "heading": "Buyers should consider"
+      }
+    },
+    "5d81f068-a98b-4e3c-85cc-07f1f5c0986f": {
+      "type": "js.callout",
+      "props": {
+        "text": "<p>A hardware root of trust matters because every other layer of cryptographic security ultimately depends on the confidentiality, integrity, and availability of that foundation.</p>",
+        "title": "Key Takeaway",
+        "variant": "takeaway"
+      }
+    },
+    "1f0c7c1f-c6de-4531-911a-85eb96bbcd82": {
+      "type": "js.scrolly-step",
+      "props": {
+        "text": "<p>For HSMs, crypto agility is the ability to introduce, update, and transition cryptographic algorithms, keys, and policies quickly and securely, without disrupting applications, integrations, or operational continuity. That capability is becoming increasingly important as the transition to post-quantum cryptography (PQC) reshapes long-term security planning.</p><p>A modern HSM should be crypto agile at its core, supporting classical, post-quantum, and hybrid algorithms, evolving through software and firmware updates, and providing a clear path toward NIST-standardized PQC algorithms such as ML-KEM and ML-DSA.</p>",
+        "label": "Crypto agility",
+        "number": "02",
+        "heading": "Crypto Agile and Quantum-Safe Foundation"
+      },
+      "slots": {
+        "content": [
+          "ffc5ae89-6373-4dc3-b5c3-d3113fd3610e"
+        ]
+      }
+    },
+    "ffc5ae89-6373-4dc3-b5c3-d3113fd3610e": {
+      "type": "js.grid",
+      "props": {
+        "gap": "normal",
+        "align": "start",
+        "columns": "two"
+      },
+      "slots": {
+        "items": [
+          "35af1e8a-046d-48a3-b3e0-60975a3bed14",
+          "6684dab0-8762-4c3b-ba19-4c488b064a76"
+        ]
+      }
+    },
+    "35af1e8a-046d-48a3-b3e0-60975a3bed14": {
+      "type": "js.checklist",
+      "props": {
+        "items": "<ul><li>Whether the HSM is architected for crypto agility from the ground up</li><li>Support for both classical and post-quantum algorithms, including hybrid models</li><li>The ability to evolve through software and firmware updates</li><li>Clear migration pathways aligned with NIST-standardized PQC algorithms such as ML-KEM and ML-DSA</li><li>Whether cryptographic change can be absorbed without operational disruption</li></ul>",
+        "heading": "Buyers should consider"
+      }
+    },
+    "6684dab0-8762-4c3b-ba19-4c488b064a76": {
+      "type": "js.callout",
+      "props": {
+        "text": "<p>The key consideration is not whether a vendor claims post-quantum readiness, but whether the architecture provides a crypto agile foundation that can absorb cryptographic change with minimal disruption.</p>",
+        "title": "Key Takeaway",
+        "variant": "takeaway"
+      }
+    },
+    "a2443515-0556-4ab2-a4b6-a39dcab5d408": {
+      "type": "js.scrolly-step",
+      "props": {
+        "text": "<p>Certifications such as FIPS 140-3 and Common Criteria provide independent validation, but they do not provide a complete view of compliance, governance, or deployment suitability. Validation levels, scopes, and configurations can vary across hardware, firmware, and deployment models.</p><p>Buyers must also assess how the HSM is deployed — on-premises, in the cloud, or hybrid — how it is governed in practice, and how it aligns with data sovereignty mandates across operating environments.</p>",
+        "label": "Certifications",
+        "number": "03",
+        "heading": "Certifications, Compliance, and Sovereignty"
+      },
+      "slots": {
+        "content": [
+          "21a2d8e6-bd82-4fc5-9f35-e0fe4951961a"
+        ]
+      }
+    },
+    "21a2d8e6-bd82-4fc5-9f35-e0fe4951961a": {
+      "type": "js.grid",
+      "props": {
+        "gap": "normal",
+        "align": "start",
+        "columns": "two"
+      },
+      "slots": {
+        "items": [
+          "ba933fdc-a0d2-4d59-9180-c76aa7697921",
+          "ceaefc93-ce52-4357-aaa3-a0511bea4c31"
+        ]
+      }
+    },
+    "ba933fdc-a0d2-4d59-9180-c76aa7697921": {
+      "type": "js.checklist",
+      "props": {
+        "items": "<ul><li>Baseline certifications such as FIPS 140-3 and Common Criteria, plus support for PCI DSS, GDPR, eIDAS, DORA, and the EU Cyber Resilience Act</li><li>Exactly which product versions, deployment models, and operating modes are covered by certification claims</li><li>Deployment flexibility across on-premises, regional cloud, or hosted services in appropriate jurisdictions</li><li>Control over key location, administrative access, and jurisdictional boundaries</li><li>Alignment with internal governance policies and external regulatory obligations</li></ul>",
+        "heading": "Buyers should consider"
+      }
+    },
+    "ceaefc93-ce52-4357-aaa3-a0511bea4c31": {
+      "type": "js.callout",
+      "props": {
+        "text": "<p>An HSM should combine independently validated certifications with deployment flexibility and control to meet broader compliance and sovereignty requirements.</p>",
+        "title": "Key Takeaway",
+        "variant": "takeaway"
+      }
+    },
+    "998753be-2066-42e8-bf84-4abd2e72b20a": {
+      "type": "js.scrolly-step",
+      "props": {
+        "text": "<p>Modern enterprises operate across on-premises data centers, private cloud, public cloud, and SaaS environments. Many organizations now need a hybrid approach that provides a consistent root of trust across these environments rather than a fragmented set of isolated deployments.</p><p>A modern HSM should deliver a unified cryptographic experience across deployment models, with consistent security controls, governance, and integration approaches supported by APIs such as PKCS#11 and REST.</p>",
+        "label": "Deployment",
+        "number": "04",
+        "heading": "Deployment Models and Hybrid Flexibility"
+      },
+      "slots": {
+        "content": [
+          "df606f8d-0869-4eca-85b0-eb3d21cf980f"
+        ]
+      }
+    },
+    "df606f8d-0869-4eca-85b0-eb3d21cf980f": {
+      "type": "js.grid",
+      "props": {
+        "gap": "normal",
+        "align": "start",
+        "columns": "two"
+      },
+      "slots": {
+        "items": [
+          "00fb3922-2fd1-4c90-90a1-3211355ca5b8",
+          "692478ec-5880-474b-90f0-362ceba10f9c"
+        ]
+      }
+    },
+    "00fb3922-2fd1-4c90-90a1-3211355ca5b8": {
+      "type": "js.checklist",
+      "props": {
+        "items": "<ul><li>Support for on-premises, private cloud, and public cloud deployments as part of a hybrid architecture</li><li>Broad API support for PKCS#11 and REST for consistent integration</li><li>Workload and key portability without application redesign</li><li>Consistent governance, security policies, and operational controls across deployment models</li><li>Abstraction layers that reduce direct dependency on underlying HSM infrastructure</li></ul>",
+        "heading": "Buyers should consider"
+      }
+    },
+    "692478ec-5880-474b-90f0-362ceba10f9c": {
+      "type": "js.callout",
+      "props": {
+        "text": "<p>A future-proof deployment model ensures cryptographic services remain consistent, portable, and governable across the full spectrum of enterprise environments.</p>",
+        "title": "Key Takeaway",
+        "variant": "takeaway"
+      }
+    },
+    "4fde5ef4-1133-4aff-aefe-cd88b344f8c9": {
+      "type": "js.scrolly-step",
+      "props": {
+        "text": "<p>HSM performance is critical when cryptographic operations sit directly in the path of business-critical processes such as certificate issuance, payment processing, transaction signing, authentication, and AI workloads. PQC introduces algorithms with greater computational demands.</p><p>Modern HSMs must deliver high throughput and low, predictable latency, with QoS controls and multi-tenant architectures that keep behavior predictable when many applications share cryptographic resources — and scale without architectural redesign.</p>",
+        "label": "Performance",
+        "number": "05",
+        "heading": "PQC Performance, Throughput, and Scalability"
+      },
+      "slots": {
+        "content": [
+          "36554c68-fb95-47ee-b0bc-3808132a91b6"
+        ]
+      }
+    },
+    "36554c68-fb95-47ee-b0bc-3808132a91b6": {
+      "type": "js.grid",
+      "props": {
+        "gap": "normal",
+        "align": "start",
+        "columns": "two"
+      },
+      "slots": {
+        "items": [
+          "c13af328-3fd9-4cdc-bf74-4a65194b0103",
+          "46512430-75dd-46ba-9cf0-afd493400d1a"
+        ]
+      }
+    },
+    "c13af328-3fd9-4cdc-bf74-4a65194b0103": {
+      "type": "js.checklist",
+      "props": {
+        "items": "<ul><li>High throughput and low latency for current processes and the growing demands of PQC and AI-driven workloads</li><li>QoS controls that ensure predictable performance under mixed and competing demand</li><li>Multi-tenant architectures with strong security isolation between workloads</li><li>Scalability that supports present requirements and future growth</li><li>The ability to expand capacity without redesigning the underlying architecture</li></ul>",
+        "heading": "Buyers should consider"
+      }
+    },
+    "46512430-75dd-46ba-9cf0-afd493400d1a": {
+      "type": "js.callout",
+      "props": {
+        "text": "<p>A quantum-safe, future-proof HSM combines performance, QoS, and secure multi-tenancy with scalability as PQC and AI-driven workloads increase demand.</p>",
+        "title": "Key Takeaway",
+        "variant": "takeaway"
+      }
+    },
+    "3fb439bd-a233-4851-b2f9-55499b4ec603": {
+      "type": "js.scrolly-step",
+      "props": {
+        "text": "<p>Cryptographic services are embedded across PKI systems, key management platforms, cloud environments, DevSecOps pipelines, certificate lifecycle tools, and enterprise applications. When an HSM does not integrate effectively, organizations are left with custom workarounds and avoidable application changes.</p><p>Buyers should look beyond interface availability to whether integrations are well-documented, widely adopted, and proven in real-world deployments. The breadth of a vendor’s partner ecosystem is an important indicator of operational maturity.</p>",
+        "label": "Ecosystem",
+        "number": "06",
+        "heading": "Ecosystem Integration and Interoperability"
+      },
+      "slots": {
+        "content": [
+          "abea7300-90ea-4622-a678-944e4c0cac50"
+        ]
+      }
+    },
+    "abea7300-90ea-4622-a678-944e4c0cac50": {
+      "type": "js.grid",
+      "props": {
+        "gap": "normal",
+        "align": "start",
+        "columns": "two"
+      },
+      "slots": {
+        "items": [
+          "8693a10c-0972-4af0-bd96-2c39b8ac1827",
+          "1dc65b13-f777-46d3-8392-422b47085891"
+        ]
+      }
+    },
+    "8693a10c-0972-4af0-bd96-2c39b8ac1827": {
+      "type": "js.checklist",
+      "props": {
+        "items": "<ul><li>Whether applications integrate without custom rework or redesign</li><li>Support for standards such as PKCS#11 and REST APIs with proven interoperability</li><li>Validated integrations across common enterprise platforms and tools</li><li>Depth of partnerships across cloud, PKI, DevSecOps, and security vendors</li><li>Quality of implementation guidance, documentation, and reference architectures</li></ul>",
+        "heading": "Buyers should consider"
+      }
+    },
+    "1dc65b13-f777-46d3-8392-422b47085891": {
+      "type": "js.callout",
+      "props": {
+        "text": "<p>An HSM is defined not only by its interfaces, but by the breadth and maturity of its technology partner ecosystem.</p>",
+        "title": "Key Takeaway",
+        "variant": "takeaway"
+      }
+    },
+    "6eef6126-5a9e-497a-b4d6-a0c40e268338": {
+      "type": "js.scrolly-step",
+      "props": {
+        "text": "<p>As HSM deployments scale across teams, applications, and environments, governance and operational control become key differentiators. They define how access, key usage, and lifecycle policies are enforced, monitored, and audited at the root of trust.</p><p>Modern HSMs should provide RBAC, separation of duties, dual control, and approval workflows, along with centralized, tamper-resistant logging, alerting, and reporting that is useful for both compliance and anomaly detection.</p>",
+        "label": "Governance",
+        "number": "07",
+        "heading": "Governance, Monitoring, and Operational Control"
+      },
+      "slots": {
+        "content": [
+          "03b0ebfd-4d65-472a-a812-468ed9c131ce"
+        ]
+      }
+    },
+    "03b0ebfd-4d65-472a-a812-468ed9c131ce": {
+      "type": "js.grid",
+      "props": {
+        "gap": "normal",
+        "align": "start",
+        "columns": "two"
+      },
+      "slots": {
+        "items": [
+          "8dc32f9d-85c6-4275-9dc9-c6366827be24",
+          "e2d80c85-da2a-4e9c-ab68-e437286a1917"
+        ]
+      }
+    },
+    "8dc32f9d-85c6-4275-9dc9-c6366827be24": {
+      "type": "js.checklist",
+      "props": {
+        "items": "<ul><li>Role-based access control (RBAC) with clear separation of duties</li><li>Dual control and approval workflows for sensitive operations</li><li>Centralized logging, alerting, and monitoring for real-time visibility</li><li>Tamper-resistant audit trails with clear compliance reporting</li><li>Operational simplicity that supports scale without added complexity</li></ul>",
+        "heading": "Buyers should consider"
+      }
+    },
+    "e2d80c85-da2a-4e9c-ab68-e437286a1917": {
+      "type": "js.callout",
+      "props": {
+        "text": "<p>An HSM should combine governance, visibility, and usability so cryptographic controls are consistently enforced, auditable, and manageable at scale.</p>",
+        "title": "Key Takeaway",
+        "variant": "takeaway"
+      }
+    },
+    "2b56b4d3-30ae-4c89-89f6-f1d88043bc2e": {
+      "type": "js.scrolly-step",
+      "props": {
+        "text": "<p>If an HSM becomes unavailable, the impact is immediate — from failed certificate services and halted software signing to disrupted transactions and loss of access to critical keys.</p><p>Buyers need to assess how the HSM supports failover, redundancy, backup, and disaster recovery across environments. Recovery is not only about restoring uptime, but also about maintaining cryptographic integrity and control.</p>",
+        "label": "Resilience",
+        "number": "08",
+        "heading": "Resilience, Availability, and Recovery"
+      },
+      "slots": {
+        "content": [
+          "ca14afac-04b1-4b72-a433-05d55f5e002e"
+        ]
+      }
+    },
+    "ca14afac-04b1-4b72-a433-05d55f5e002e": {
+      "type": "js.grid",
+      "props": {
+        "gap": "normal",
+        "align": "start",
+        "columns": "two"
+      },
+      "slots": {
+        "items": [
+          "2d63f96a-374c-45d2-b305-c539cabdb0f9",
+          "997a5d07-5c03-433b-bd32-253f7a4cc9e0"
+        ]
+      }
+    },
+    "2d63f96a-374c-45d2-b305-c539cabdb0f9": {
+      "type": "js.checklist",
+      "props": {
+        "items": "<ul><li>High availability and failover support across nodes and environments</li><li>Secure backup and restoration of cryptographic key material</li><li>Disaster recovery that maintains both service continuity and security controls</li><li>Clear and tested recovery procedures for real-world failure scenarios</li><li>Resilience designed to preserve cryptographic trust, not just system uptime</li></ul>",
+        "heading": "Buyers should consider"
+      }
+    },
+    "997a5d07-5c03-433b-bd32-253f7a4cc9e0": {
+      "type": "js.callout",
+      "props": {
+        "text": "<p>An HSM must provide the availability and recovery needed to keep critical cryptographic services secure, accessible, and reliable during outages and failover.</p>",
+        "title": "Key Takeaway",
+        "variant": "takeaway"
+      }
+    },
+    "f593e5a9-e5e0-4384-9bb9-63427019f927": {
+      "type": "js.scrolly-step",
+      "props": {
+        "text": "<p>Cost matters, but it should be evaluated in the context of long-term value. Total cost of ownership extends well beyond acquisition price to licensing models, integration effort, scaling complexity, operational overhead, staffing, and support quality.</p><p>Hidden costs often emerge when HSMs lack flexibility or require re-architecture to support new use cases such as the transition to post-quantum cryptography.</p>",
+        "label": "Value & TCO",
+        "number": "09",
+        "heading": "Value and Total Cost of Ownership"
+      },
+      "slots": {
+        "content": [
+          "bced79a8-53f2-47af-b992-4b137923892a"
+        ]
+      }
+    },
+    "bced79a8-53f2-47af-b992-4b137923892a": {
+      "type": "js.grid",
+      "props": {
+        "gap": "normal",
+        "align": "start",
+        "columns": "two"
+      },
+      "slots": {
+        "items": [
+          "4bfb78ed-9a11-4b53-8f6c-a9f16fd2c71b",
+          "ebcbf9c2-8705-4c37-962f-535c35111d5e"
+        ]
+      }
+    },
+    "4bfb78ed-9a11-4b53-8f6c-a9f16fd2c71b": {
+      "type": "js.checklist",
+      "props": {
+        "items": "<ul><li>Total cost of ownership, including operational, integration, and scaling effort — not just purchase price</li><li>Support for new and emerging use cases without architectural redesign</li><li>Flexibility to adapt to evolving cryptographic and regulatory requirements</li><li>Vendor maturity, enterprise adoption, and quality of ongoing support</li><li>A clear, credible roadmap that demonstrates long-term product commitment</li></ul>",
+        "heading": "Buyers should consider"
+      }
+    },
+    "ebcbf9c2-8705-4c37-962f-535c35111d5e": {
+      "type": "js.callout",
+      "props": {
+        "text": "<p>The most cost-effective HSM is defined by the value it delivers over time, rather than by upfront price alone.</p>",
+        "title": "Key Takeaway",
+        "variant": "takeaway"
+      }
+    },
+    "fbb84f8b-b20d-441c-a31e-938662dd901a": {
+      "type": "js.scrolly-step",
+      "props": {
+        "text": "<p>HSMs are long-lifecycle security infrastructure, which makes vendor maturity and roadmap clarity important evaluation criteria. Buyers need confidence in the vendor’s ability to support changing cryptographic requirements, hybrid deployment strategies, and evolving regulation.</p><p>A credible roadmap reduces the risk of capability gaps that may only become visible after deployment — especially as organizations plan for post-quantum cryptography and cloud evolution.</p>",
+        "label": "Vendor maturity",
+        "number": "10",
+        "heading": "Vendor Maturity and Roadmap"
+      },
+      "slots": {
+        "content": [
+          "3f7c8c44-aca2-4a1f-b234-033776fb9a9e"
+        ]
+      }
+    },
+    "3f7c8c44-aca2-4a1f-b234-033776fb9a9e": {
+      "type": "js.grid",
+      "props": {
+        "gap": "normal",
+        "align": "start",
+        "columns": "two"
+      },
+      "slots": {
+        "items": [
+          "fda11d9c-e1e5-4aaf-974a-3608e32e3782",
+          "9f69c439-2297-43b5-aa85-38991cf4c909"
+        ]
+      }
+    },
+    "fda11d9c-e1e5-4aaf-974a-3608e32e3782": {
+      "type": "js.checklist",
+      "props": {
+        "items": "<ul><li>Proven enterprise deployments at scale</li><li>Track record of long-term product support and stability</li><li>Clear, credible post-quantum cryptography (PQC) roadmap</li><li>Frequency and reliability of HSM updates and innovation</li><li>Alignment between vendor roadmap and your long-term security strategy</li></ul>",
+        "heading": "Buyers should consider"
+      }
+    },
+    "9f69c439-2297-43b5-aa85-38991cf4c909": {
+      "type": "js.callout",
+      "props": {
+        "text": "<p>Vendor maturity and roadmap clarity matter because HSMs are not short-term tools, but long-term trust infrastructure.</p>",
+        "title": "Key Takeaway",
+        "variant": "takeaway"
+      }
+    },
+    "204a7dc9-0a15-486b-b2fc-d054a8739b56": {
+      "type": "js.guide-section",
+      "props": {
+        "intro": "Most modern deployments fall into two broad categories: payment HSMs, optimized for high-volume, transaction-intensive financial environments, and general-purpose HSMs, which support PKI, cloud security, code signing, and digital identity. Increasingly, both run on shared hardware foundations — consolidating infrastructure and improving return on investment.",
+        "theme": "light",
+        "eyebrow": "While core criteria remain consistent, priorities differ by use case",
+        "heading": "Common HSM Buying Scenarios",
+        "anchorId": "buying-scenarios",
+        "navLabel": "Common buying scenarios"
+      },
+      "slots": {
+        "content": [
+          "a53a6b8b-b745-4b6e-8d3f-2d0638228610",
+          "73a84bf7-0ef0-40f5-953f-9bfc38df7a39"
+        ]
+      }
+    },
+    "a53a6b8b-b745-4b6e-8d3f-2d0638228610": {
+      "type": "js.tabs",
+      "props": {
+        "label": "Buying scenarios",
+        "orientation": "vertical"
+      },
+      "slots": {
+        "panels": [
+          "8a433487-0837-4a49-9c68-e76b8c30d48b",
+          "9320578b-a5cf-41b0-b4d1-de1f537b456b",
+          "ed5cc728-1a07-4190-a9bc-0c1d1408a410",
+          "3694d366-ded3-45b3-b132-2797dce1e53b",
+          "5b5ebcb4-f452-44fe-9d68-f2756d47ba7a",
+          "bd465aef-8675-4fbc-99ed-c4ba6e4399b4",
+          "40fc601c-2131-463c-8db7-4ff5de694e05"
+        ]
+      }
+    },
+    "8a433487-0837-4a49-9c68-e76b8c30d48b": {
+      "type": "js.tab-panel",
+      "props": {
+        "icon": "lock",
+        "text": "Emphasis on centralized control, strong key protection, and seamless deployment across on-premises and cloud environments.",
+        "label": "Enterprise encryption",
+        "heading": "Enterprise encryption and key management"
+      }
+    },
+    "9320578b-a5cf-41b0-b4d1-de1f537b456b": {
+      "type": "js.tab-panel",
+      "props": {
+        "icon": "key",
+        "text": "Focus on key custody, lifecycle governance, auditability, and strict separation of administrative roles.",
+        "label": "PKI & certificate authorities",
+        "heading": "PKI and certificate authorities"
+      }
+    },
+    "ed5cc728-1a07-4190-a9bc-0c1d1408a410": {
+      "type": "js.tab-panel",
+      "props": {
+        "icon": "check",
+        "text": "Priority on secure signing workflows, private key isolation, and software supply chain security assurance.",
+        "label": "Code signing",
+        "heading": "Code signing and software integrity"
+      }
+    },
+    "3694d366-ded3-45b3-b132-2797dce1e53b": {
+      "type": "js.tab-panel",
+      "props": {
+        "icon": "coins",
+        "text": "Requirement for high throughput, low latency, certification alignment, resilience, and support for highly regulated transaction environments.",
+        "label": "Payments & financial services",
+        "heading": "Payment and financial services"
+      }
+    },
+    "5b5ebcb4-f452-44fe-9d68-f2756d47ba7a": {
+      "type": "js.tab-panel",
+      "props": {
+        "icon": "scale",
+        "text": "Strong emphasis on certifications, sovereignty controls, documentation, and long-term vendor trust.",
+        "label": "Government & regulated",
+        "heading": "Government and regulated sectors"
+      }
+    },
+    "bd465aef-8675-4fbc-99ed-c4ba6e4399b4": {
+      "type": "js.tab-panel",
+      "props": {
+        "icon": "cloud",
+        "text": "Demand for deployment flexibility, consistent controls across environments, and integration with cloud ecosystems and APIs.",
+        "label": "Cloud & multi-cloud",
+        "heading": "Cloud, hybrid, and multi-cloud environments"
+      }
+    },
+    "40fc601c-2131-463c-8db7-4ff5de694e05": {
+      "type": "js.tab-panel",
+      "props": {
+        "icon": "network",
+        "text": "Need for strong key isolation, secure signing, governance controls, auditability, and scalable custody models.",
+        "label": "Digital assets",
+        "heading": "Digital assets and blockchain"
+      }
+    },
+    "73a84bf7-0ef0-40f5-953f-9bfc38df7a39": {
+      "type": "js.grid",
+      "props": {
+        "spaced": true,
+        "columns": "split"
+      },
+      "slots": {
+        "items": [
+          "c3fd4f10-3d51-47a7-a173-801faebf4e29"
+        ]
+      }
+    },
+    "c3fd4f10-3d51-47a7-a173-801faebf4e29": {
+      "type": "js.callout",
+      "props": {
+        "text": "<p>HSMs that support both payment-grade performance and general-purpose cryptographic services on a single architecture can improve efficiency, simplify operations, and create long-term value by enabling more use cases on the same infrastructure.</p>",
+        "title": "One architecture, more use cases",
+        "variant": "note"
+      }
+    },
+    "891db6c0-e686-417e-ae26-b714904a7569": {
+      "type": "js.guide-section",
+      "props": {
+        "intro": "Use this scorecard as a side-by-side framework for comparing HSM vendors across the criteria that matter most. Rate a vendor on each criterion and print the result for your evaluation team.",
+        "theme": "mist",
+        "width": "wide",
+        "eyebrow": "At a glance",
+        "heading": "HSM Vendor Comparison Scorecard",
+        "anchorId": "scorecard",
+        "navLabel": "Vendor comparison scorecard"
+      },
+      "slots": {
+        "content": [
+          "c9266d90-548f-4aa3-873d-5e3680632ce2"
+        ]
+      }
+    },
+    "c9266d90-548f-4aa3-873d-5e3680632ce2": {
+      "type": "js.scorecard",
+      "props": {
+        "vendorLabel": "Vendor scorecard",
+        "summaryHeading": "Your vendor at a glance"
+      },
+      "slots": {
+        "rows": [
+          "f72e163c-a957-4df7-92e1-81a1ee614c19",
+          "4bd8b2f2-68c2-4e7b-9644-78f5574df341",
+          "c02864ef-ed22-41df-a911-1c30d1bd1f50",
+          "00da98a6-f137-4f9d-8145-46a11028310e",
+          "485d45c6-d2ae-48e9-b0fc-5974c9572e99",
+          "2fa81d95-ab14-4fd3-88f2-919a539ce0bc",
+          "27939a6d-12a6-4425-9c75-bbd310307114",
+          "4133edd2-4b78-4dc7-8559-cea1f7e73d2f",
+          "d6eba9df-8b8d-400c-84ac-679ea9cb388f",
+          "9a7b3edf-0a2c-4392-bd4b-bc15c2e88c11"
+        ]
+      }
+    },
+    "f72e163c-a957-4df7-92e1-81a1ee614c19": {
+      "type": "js.scorecard-row",
+      "props": {
+        "lookFor": "Keys generated with high-quality entropy, protected in hardware by default, with no exposure outside the HSM, strong tamper and side channel resistance, and secure audit logging.",
+        "redFlag": "Keys exposed to host memory or software controls, weak entropy, sensitive operations outside the HSM, limited attack resistance, incomplete or mutable audit trails.",
+        "category": "Key Protection & Root of Trust"
+      }
+    },
+    "4bd8b2f2-68c2-4e7b-9644-78f5574df341": {
+      "type": "js.scorecard-row",
+      "props": {
+        "lookFor": "PQC-ready architecture, hybrid cryptographic support, firmware-upgradable algorithms.",
+        "redFlag": "PQC treated as a roadmap add-on, with no credible path to adopting new cryptographic standards.",
+        "category": "Crypto Agility & Quantum-Safe"
+      }
+    },
+    "c02864ef-ed22-41df-a911-1c30d1bd1f50": {
+      "type": "js.scorecard-row",
+      "props": {
+        "lookFor": "FIPS 140-3, global compliance, and clear sovereignty controls across deployments.",
+        "redFlag": "Certification claims are unclear, outdated, or don’t cover the evaluated product or deployment.",
+        "category": "Certifications & Sovereignty"
+      }
+    },
+    "00da98a6-f137-4f9d-8145-46a11028310e": {
+      "type": "js.scorecard-row",
+      "props": {
+        "lookFor": "On-premises, cloud, and hybrid deployment with consistent APIs and controls.",
+        "redFlag": "Separate products by environment or re-architecture required.",
+        "category": "Deployment Flexibility"
+      }
+    },
+    "485d45c6-d2ae-48e9-b0fc-5974c9572e99": {
+      "type": "js.scorecard-row",
+      "props": {
+        "lookFor": "High throughput, predictable latency, and scalability for PQC-era workloads.",
+        "redFlag": "Performance degradation under load or during computationally intensive operations such as PQC.",
+        "category": "PQC Performance & Scalability"
+      }
+    },
+    "2fa81d95-ab14-4fd3-88f2-919a539ce0bc": {
+      "type": "js.scorecard-row",
+      "props": {
+        "lookFor": "Broad partner ecosystem and integration support.",
+        "redFlag": "Heavy custom integration required.",
+        "category": "Ecosystem Integration"
+      }
+    },
+    "27939a6d-12a6-4425-9c75-bbd310307114": {
+      "type": "js.scorecard-row",
+      "props": {
+        "lookFor": "RBAC, dual control, full auditability, centralized visibility.",
+        "redFlag": "Limited logging or fragmented admin tools.",
+        "category": "Governance & Monitoring"
+      }
+    },
+    "4133edd2-4b78-4dc7-8559-cea1f7e73d2f": {
+      "type": "js.scorecard-row",
+      "props": {
+        "lookFor": "High availability, failover, secure backup/restore of keys, tested disaster recovery.",
+        "redFlag": "Manual recovery or unclear key restoration model.",
+        "category": "Resilience & Recovery"
+      }
+    },
+    "d6eba9df-8b8d-400c-84ac-679ea9cb388f": {
+      "type": "js.scorecard-row",
+      "props": {
+        "lookFor": "Scales without redesign and delivers predictable lifecycle cost.",
+        "redFlag": "Hidden costs tied to upgrades, integration effort, or architectural rework.",
+        "category": "Value & Total Cost of Ownership"
+      }
+    },
+    "9a7b3edf-0a2c-4392-bd4b-bc15c2e88c11": {
+      "type": "js.scorecard-row",
+      "props": {
+        "lookFor": "Proven enterprise adoption and a clear, credible PQC roadmap.",
+        "redFlag": "Unclear future direction, weak roadmap visibility, or limited enterprise footprint.",
+        "category": "Vendor Maturity & Roadmap"
+      }
+    },
+    "a6ee64ce-b734-442c-bdf5-bbf94b7a7109": {
+      "type": "js.guide-section",
+      "props": {
+        "intro": "The Thales HSM platform will also extend to payment use cases with the next-generation payShield 11K, designed to protect payment transactions, PINs and sensitive cryptographic keys used by banks and payment providers worldwide.",
+        "theme": "deep",
+        "width": "wide",
+        "eyebrow": "Industry-leading PQC performance",
+        "heading": "Meet the Next-Generation Luna 8",
+        "anchorId": "luna-8",
+        "navLabel": "Meet Luna 8"
+      },
+      "slots": {
+        "content": [
+          "33c03587-18ae-4b70-9491-4c724f352b61",
+          "6ae052f7-0fd7-4e89-89ff-7a1be61c3a6e",
+          "4cb7af63-b6e6-4d1a-b93a-2fecbf9976fc",
+          "f3e6c688-c7c9-4444-b84b-7d78642a8a1a"
+        ]
+      }
+    },
+    "33c03587-18ae-4b70-9491-4c724f352b61": {
+      "type": "js.rich-text",
+      "props": {
+        "size": "lead",
+        "text": "<p>Introducing a new Thales Luna HSM built to help organizations establish a quantum-safe root of trust. Luna 8 combines crypto agility, native post-quantum cryptography support, stronger security isolation, multi-tenant scalability, and management APIs designed to simplify automation, monitoring, and operational integration.</p>"
+      }
+    },
+    "6ae052f7-0fd7-4e89-89ff-7a1be61c3a6e": {
+      "type": "js.rich-text",
+      "props": {
+        "size": "lead",
+        "text": "Luna 8 at a glance"
+      }
+    },
+    "4cb7af63-b6e6-4d1a-b93a-2fecbf9976fc": {
+      "type": "js.grid",
+      "props": {
+        "gap": "tight",
+        "columns": "five"
+      },
+      "slots": {
+        "items": [
+          "e0450cdc-a5c0-407c-9391-1251cfafbda8",
+          "7e795105-2fdb-43c4-bfb6-caa6ba6cb7d1",
+          "34fbaf86-c069-43d4-9254-67b90e81204a",
+          "c776c11a-81c3-4660-9a79-5e3676de5d60",
+          "a452c591-715c-4396-87a7-d8ece1ed51c2"
+        ]
+      }
+    },
+    "e0450cdc-a5c0-407c-9391-1251cfafbda8": {
+      "type": "js.feature-card",
+      "props": {
+        "icon": "shield",
+        "text": "Transition to quantum-safe cryptography with PQC algorithms and a quantum-safe root of trust.",
+        "heading": "Quantum-safe from the ground up"
+      }
+    },
+    "7e795105-2fdb-43c4-bfb6-caa6ba6cb7d1": {
+      "type": "js.feature-card",
+      "props": {
+        "icon": "refresh",
+        "text": "Automate administration and integrate IT infrastructure tools for easy deployment and scale.",
+        "heading": "Automation & scalability"
+      }
+    },
+    "34fbaf86-c069-43d4-9254-67b90e81204a": {
+      "type": "js.feature-card",
+      "props": {
+        "icon": "road",
+        "text": "Easy migration from Luna 7 with compatible APIs and a key migration solution.",
+        "heading": "Seamless migration"
+      }
+    },
+    "c776c11a-81c3-4660-9a79-5e3676de5d60": {
+      "type": "js.feature-card",
+      "props": {
+        "icon": "chip",
+        "text": "Optimized for high-volume PQC operations.",
+        "heading": "Thales-designed crypto processor"
+      }
+    },
+    "a452c591-715c-4396-87a7-d8ece1ed51c2": {
+      "type": "js.feature-card",
+      "props": {
+        "icon": "bolt",
+        "text": "Modern architecture for faster updates and new crypto mechanisms.",
+        "heading": "Crypto agility"
+      }
+    },
+    "f3e6c688-c7c9-4444-b84b-7d78642a8a1a": {
+      "type": "js.grid",
+      "props": {
+        "spaced": true,
+        "columns": "two"
+      },
+      "slots": {
+        "items": [
+          "47f3647c-38f4-4b6f-bd22-ab0bfe86c4f7",
+          "fcea3929-1e34-434e-ade5-47315fb38389"
+        ]
+      }
+    },
+    "47f3647c-38f4-4b6f-bd22-ab0bfe86c4f7": {
+      "type": "js.feature-card",
+      "props": {
+        "icon": "key",
+        "link": "https://cpl.thalesgroup.com/encryption/hardware-security-modules/general-purpose-hsms",
+        "text": "Luna HSMs have led the general-purpose HSM market for over 30 years, delivering a crypto agile, quantum-safe foundation of trust for keys, identities, data, and applications — with FIPS 140-3 and Common Criteria certifications.",
+        "eyebrow": "Portfolio",
+        "heading": "Thales Luna — your trusted general purpose HSM",
+        "linkLabel": "Learn about Luna HSMs"
+      }
+    },
+    "fcea3929-1e34-434e-ade5-47315fb38389": {
+      "type": "js.feature-card",
+      "props": {
+        "icon": "coins",
+        "link": "https://cpl.thalesgroup.com/encryption/hardware-security-modules/payment-hsms",
+        "text": "Secure every payment card transaction with payShield, which protects 80% of global POS transactions. Help prevent fraud, accelerate time-to-market, and support PCI DSS and EMV compliance.",
+        "eyebrow": "Portfolio",
+        "heading": "Thales payShield — best-in-class payment HSM",
+        "linkLabel": "Learn about payShield HSMs"
+      }
+    },
+    "7dfe5c79-6638-4187-ab05-2f6f0d61e3b0": {
+      "type": "js.guide-section",
+      "props": {
+        "theme": "light",
+        "heading": "Final Takeaways",
+        "anchorId": "final-takeaways",
+        "navLabel": "Final takeaways"
+      },
+      "slots": {
+        "content": [
+          "14699239-47ab-4424-a82b-7d22d0fcc180"
+        ]
+      }
+    },
+    "14699239-47ab-4424-a82b-7d22d0fcc180": {
+      "type": "js.rich-text",
+      "props": {
+        "size": "lead",
+        "text": "<p>HSM selection is a strategic infrastructure decision, not a narrow product comparison. Buyers need to look beyond features and certification claims to assess how well an HSM can protect today’s keys and digital identities, support modern deployment models, strengthen governance, meet resilience and performance requirements, and adapt to ongoing cryptographic change.</p><p>The right HSM vendor should give organizations confidence not only in the security of the device, but also in the long-term strength of the solution, the maturity of the surrounding ecosystem, and the credibility of the roadmap behind it.</p>",
+        "columns": "two"
+      }
+    },
+    "a6a56453-178b-42ff-9754-21f7b868e0ef": {
+      "type": "js.guide-section",
+      "props": {
+        "theme": "gradient",
+        "eyebrow": "Why Thales",
+        "heading": "Why Thales Stands Out in HSM Evaluation",
+        "anchorId": "why-thales",
+        "navLabel": "Why Thales"
+      },
+      "slots": {
+        "content": [
+          "4ab1184f-ff89-424c-b804-d26089c7e7b0",
+          "b98fb381-aef4-47db-8a0a-3540627eae33"
+        ]
+      }
+    },
+    "4ab1184f-ff89-424c-b804-d26089c7e7b0": {
+      "type": "js.grid",
+      "props": {
+        "gap": "wide",
+        "align": "center",
+        "columns": "split"
+      },
+      "slots": {
+        "items": [
+          "098c1bfa-06b0-4e5b-b8b2-84df4e9aee6d",
+          "99138feb-d4f5-45c3-a3a3-b93394d9fd3a"
+        ]
+      }
+    },
+    "098c1bfa-06b0-4e5b-b8b2-84df4e9aee6d": {
+      "type": "js.rich-text",
+      "props": {
+        "text": "<p>Thales HSMs combine hardware-based key protection with the operational maturity, deployment flexibility, and long-term roadmap buyers need from critical trust infrastructure. Across both general-purpose and payment environments, Thales supports high-assurance cryptographic operations with HSMs designed to protect sensitive key material within certified, tamper-resistant hardware.</p><p>This includes support for crypto agility and controlled, low-risk migration to emerging standards without disrupting existing applications.</p>"
+      }
+    },
+    "99138feb-d4f5-45c3-a3a3-b93394d9fd3a": {
+      "type": "js.grid",
+      "props": {
+        "columns": "two"
+      },
+      "slots": {
+        "items": [
+          "7c392dda-f37c-4eb2-9484-a7371326f82c",
+          "ad9549a6-bf6f-4d98-8e3d-f1e074cf5fde"
+        ]
+      }
+    },
+    "7c392dda-f37c-4eb2-9484-a7371326f82c": {
+      "type": "js.stat-counter",
+      "props": {
+        "label": "of global POS transactions protected by payShield",
+        "value": 80,
+        "suffix": "%"
+      }
+    },
+    "ad9549a6-bf6f-4d98-8e3d-f1e074cf5fde": {
+      "type": "js.stat-counter",
+      "props": {
+        "label": "years leading the general-purpose HSM market",
+        "value": 30,
+        "suffix": "+"
+      }
+    },
+    "b98fb381-aef4-47db-8a0a-3540627eae33": {
+      "type": "js.grid",
+      "props": {
+        "spaced": true,
+        "columns": "four"
+      },
+      "slots": {
+        "items": [
+          "75d7cbde-3596-4a16-9d29-e9162e07d296",
+          "c90ceef1-afde-4865-9971-83850ef4ba1f",
+          "57f43aa0-f56c-4a2b-b1ba-cbd12ca4eab7",
+          "111d443d-d665-403b-a0e0-ddbfb3d88316"
+        ]
+      }
+    },
+    "75d7cbde-3596-4a16-9d29-e9162e07d296": {
+      "type": "js.feature-card",
+      "props": {
+        "icon": "users",
+        "text": "Deployed at scale by the world’s most trusted organizations.",
+        "align": "center",
+        "heading": "Proven enterprise adoption"
+      }
+    },
+    "c90ceef1-afde-4865-9971-83850ef4ba1f": {
+      "type": "js.feature-card",
+      "props": {
+        "icon": "shield",
+        "text": "Certified, tamper-resistant hardware with consistent controls.",
+        "align": "center",
+        "heading": "High-assurance"
+      }
+    },
+    "57f43aa0-f56c-4a2b-b1ba-cbd12ca4eab7": {
+      "type": "js.feature-card",
+      "props": {
+        "icon": "layers",
+        "text": "General-purpose and payment workloads on one platform.",
+        "align": "center",
+        "heading": "Broad use case support"
+      }
+    },
+    "111d443d-d665-403b-a0e0-ddbfb3d88316": {
+      "type": "js.feature-card",
+      "props": {
+        "icon": "sparkles",
+        "text": "Leading post-quantum readiness and hybrid deployment.",
+        "align": "center",
+        "heading": "Continued innovation"
+      }
+    },
+    "31460f58-aba3-4c2f-8464-a8da20a3702f": {
+      "type": "js.guide-section",
+      "props": {
+        "theme": "deep",
+        "heading": "Talk to a Thales HSM expert",
+        "anchorId": "contact",
+        "navLabel": "Contact us",
+        "parallax": true,
+        "backgroundImage": {
+          "src": "/sites/default/files/2026-09/media_0.jpg?alternateWidths=/sites/default/files/styles/canvas_parametrized_width--%7Bwidth%7D/public/2026-09/media_0.jpg.avif%3Fitok%3DVxt5TPWM",
+          "alt": "Security chip radiating data lines",
+          "width": 900,
+          "height": 1283
+        }
+      },
+      "slots": {
+        "content": [
+          "06b38962-6a45-4839-9e06-0e1f46c9e573"
+        ]
+      },
+      "_provenance": {
+        "backgroundImage": {
+          "target_id": 11
+        }
+      }
+    },
+    "06b38962-6a45-4839-9e06-0e1f46c9e573": {
+      "type": "js.grid",
+      "props": {
+        "gap": "wide",
+        "align": "center",
+        "columns": "split"
+      },
+      "slots": {
+        "items": [
+          "3a80aecf-170d-4dd1-84f6-680f232bd106",
+          "f2c9c8bb-591a-44d6-9011-75b77984e4f7"
+        ]
+      }
+    },
+    "3a80aecf-170d-4dd1-84f6-680f232bd106": {
+      "type": "js.rich-text",
+      "props": {
+        "size": "lead",
+        "text": "<p><strong>About Thales</strong></p><p>Thales is a global leader in cybersecurity, helping the most trusted organizations protect critical applications, data, identities, and software anywhere, at scale. Through Thales’ integrated platforms, customers achieve better visibility of risks, defend against cyber threats, close compliance gaps, and deliver trusted digital experiences for billions of consumers every day.</p><p>For contact information, please visit <a href=\"https://cpl.thalesgroup.com/contact-us\">cpl.thalesgroup.com/contact-us</a>.</p>"
+      }
+    },
+    "f2c9c8bb-591a-44d6-9011-75b77984e4f7": {
+      "type": "js.lead-form",
+      "props": {
+        "text": "Map these criteria to your environment with a Thales specialist.",
+        "heading": "Request an HSM consultation",
+        "submitLabel": "Request a consultation",
+        "successText": "A Thales HSM specialist will be in touch shortly.",
+        "successHeading": "Thank you!"
+      }
+    }
+  }
+}

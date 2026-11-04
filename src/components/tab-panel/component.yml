@@ -1,0 +1,78 @@
+name: Tab Panel
+machineName: tab-panel
+status: true
+required:
+  - label
+props:
+  properties:
+    label:
+      type: string
+      title: Label
+      examples:
+        - PKI and certificate authorities
+    icon:
+      type: string
+      enum:
+        - shield
+        - key
+        - chip
+        - cloud
+        - lock
+        - chart
+        - layers
+        - gauge
+        - network
+        - eye
+        - refresh
+        - coins
+        - road
+        - check
+        - alert
+        - bolt
+        - globe
+        - users
+        - sparkles
+        - target
+        - search
+        - scale
+      meta:enum:
+        shield: Shield
+        key: Key
+        chip: Chip
+        cloud: Cloud
+        lock: Lock
+        chart: Chart
+        layers: Layers
+        gauge: Gauge
+        network: Network
+        eye: Eye
+        refresh: Refresh
+        coins: Coins
+        road: Road
+        check: Check
+        alert: Alert
+        bolt: Bolt
+        globe: Globe
+        users: Users
+        sparkles: Sparkles
+        target: Target
+        search: Search
+        scale: Scale
+      title: Icon
+      examples:
+        - key
+    heading:
+      type: string
+      title: Heading
+      examples:
+        - PKI and certificate authorities
+    text:
+      type: string
+      title: Text
+      examples:
+        - Focus on key custody, lifecycle governance, auditability, and strict
+          separation of administrative roles.
+slots:
+  content:
+    title: Content
+dataDependencies: {}

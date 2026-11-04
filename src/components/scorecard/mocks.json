@@ -1,0 +1,40 @@
+{
+  "mocks": [
+    {
+      "name": "Three criteria",
+      "props": {
+        "vendorLabel": "Vendor scorecard",
+        "summaryHeading": "Your vendor at a glance"
+      },
+      "slots": {
+        "rows": ["r1", "r2", "r3"]
+      },
+      "elements": {
+        "r1": {
+          "type": "scorecard-row",
+          "props": {
+            "category": "Key Protection & Root of Trust",
+            "lookFor": "Keys protected in hardware by default, with no exposure outside the HSM.",
+            "redFlag": "Keys exposed to host memory or software controls."
+          }
+        },
+        "r2": {
+          "type": "scorecard-row",
+          "props": {
+            "category": "Crypto Agility & Quantum-Safe",
+            "lookFor": "PQC-ready architecture and firmware-upgradable algorithms.",
+            "redFlag": "PQC treated as a roadmap add-on."
+          }
+        },
+        "r3": {
+          "type": "scorecard-row",
+          "props": {
+            "category": "Deployment Flexibility",
+            "lookFor": "On-premises, cloud, and hybrid with consistent APIs.",
+            "redFlag": "Separate products by environment."
+          }
+        }
+      }
+    }
+  ]
+}

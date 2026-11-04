@@ -1,0 +1,41 @@
+name: Rich Text
+machineName: rich-text
+status: true
+required:
+  - text
+props:
+  properties:
+    text:
+      type: string
+      contentMediaType: text/html
+      x-formatting-context: block
+      title: Text
+      examples:
+        - <p>Hardware Security Modules provide the hardware root of trust needed
+          to generate, protect, and manage cryptographic keys.</p>
+    size:
+      type: string
+      enum:
+        - small
+        - normal
+        - lead
+      meta:enum:
+        small: Small
+        normal: Normal
+        lead: Lead
+      title: Size
+      examples:
+        - normal
+    columns:
+      type: string
+      enum:
+        - one
+        - two
+      meta:enum:
+        one: One
+        two: Two
+      title: Columns
+      examples:
+        - one
+slots: {}
+dataDependencies: {}

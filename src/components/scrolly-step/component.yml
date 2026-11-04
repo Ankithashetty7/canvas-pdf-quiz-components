@@ -1,0 +1,41 @@
+name: Scrolly Step
+machineName: scrolly-step
+status: true
+required:
+  - heading
+props:
+  properties:
+    number:
+      type: string
+      title: Number
+      examples:
+        - '01'
+    label:
+      type: string
+      title: Label
+      description: Short name shown in the sticky rail.
+      examples:
+        - Key protection
+    heading:
+      type: string
+      title: Heading
+      examples:
+        - Key Protection and Hardware Root of Trust
+    anchorId:
+      type: string
+      title: Anchor ID
+      description: Optional deep link id. Defaults to one built from the label.
+      examples:
+        - key-protection
+    text:
+      type: string
+      contentMediaType: text/html
+      x-formatting-context: block
+      title: Text
+      examples:
+        - <p>At the center of any HSM evaluation is the hardware root of
+          trust.</p>
+slots:
+  content:
+    title: Content
+dataDependencies: {}

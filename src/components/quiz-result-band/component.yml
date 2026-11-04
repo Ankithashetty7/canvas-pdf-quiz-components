@@ -1,0 +1,54 @@
+name: Quiz Result Band
+machineName: quiz-result-band
+status: true
+required:
+  - minPercent
+  - maxPercent
+props:
+  properties:
+    minPercent:
+      type: integer
+      title: Min Percent
+      examples:
+        - 0
+    maxPercent:
+      type: integer
+      title: Max Percent
+      examples:
+        - 25
+    overallLevel:
+      type: string
+      title: Overall Level
+      description: Maturity label for an overall score in this range.
+      examples:
+        - Foundational
+    categoryLevel:
+      type: string
+      title: Category Level
+      description: Maturity label for a category score in this range.
+      examples:
+        - Critical
+    summary:
+      type: string
+      title: Summary
+      description: 'Results page summary. Tokens: {percent} {weakest} {weakestPercent}
+        {strongest} {strongestPercent} {belowCount} {pattern}. Conditional:
+        {?belowCount>3|text|else}.'
+      examples:
+        - At {percent}%, your practice is commercially exposed, with the widest
+          gaps in {pattern}.
+    executiveSummary:
+      type: string
+      title: Executive Summary
+      description: PDF executive summary. Adds {company}, {topGaps} and {weakestGap}.
+    upliftExpected:
+      type: string
+      title: Uplift Expected
+    upliftMaximum:
+      type: string
+      title: Uplift Maximum
+    upliftText:
+      type: string
+      title: Uplift Text
+slots: {}
+dataDependencies: {}

@@ -1,0 +1,35 @@
+name: Scorecard Row
+machineName: scorecard-row
+status: true
+required:
+  - category
+props:
+  properties:
+    category:
+      type: string
+      title: Category
+      examples:
+        - Key Protection & Root of Trust
+    lookFor:
+      type: string
+      title: Look For
+      examples:
+        - Keys generated with high-quality entropy and protected in hardware by
+          default.
+    redFlag:
+      type: string
+      title: Red Flag
+      examples:
+        - Keys exposed to host memory or software controls.
+    lookForLabel:
+      type: string
+      title: Look For Label
+      examples:
+        - What to look for
+    redFlagLabel:
+      type: string
+      title: Red Flag Label
+      examples:
+        - Red flag
+slots: {}
+dataDependencies: {}

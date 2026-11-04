@@ -1,0 +1,41 @@
+name: Accordion Item
+machineName: accordion-item
+status: true
+required:
+  - title
+props:
+  properties:
+    title:
+      type: string
+      title: Title
+      examples:
+        - Accordion item title
+    headingElement:
+      type: string
+      enum:
+        - h2
+        - h3
+        - h4
+        - h5
+        - h6
+      meta:enum:
+        h2: h2
+        h3: h3
+        h4: h4
+        h5: h5
+        h6: h6
+      title: Heading Element
+      examples:
+        - h3
+    defaultOpen:
+      type: boolean
+      title: Default Open
+      examples:
+        - false
+    anchorId:
+      type: string
+      title: Anchor ID
+slots:
+  content:
+    title: Content
+dataDependencies: {}

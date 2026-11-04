@@ -1,0 +1,105 @@
+name: Feature Card
+machineName: feature-card
+status: true
+required:
+  - heading
+props:
+  properties:
+    variant:
+      type: string
+      enum:
+        - card
+        - plain
+        - accent
+      meta:enum:
+        card: Card
+        plain: Plain
+        accent: Accent
+      title: Variant
+      examples:
+        - card
+    icon:
+      type: string
+      enum:
+        - shield
+        - key
+        - chip
+        - cloud
+        - lock
+        - chart
+        - layers
+        - gauge
+        - network
+        - eye
+        - refresh
+        - coins
+        - road
+        - check
+        - alert
+        - bolt
+        - globe
+        - users
+        - sparkles
+        - target
+        - search
+        - scale
+      meta:enum:
+        shield: Shield
+        key: Key
+        chip: Chip
+        cloud: Cloud
+        lock: Lock
+        chart: Chart
+        layers: Layers
+        gauge: Gauge
+        network: Network
+        eye: Eye
+        refresh: Refresh
+        coins: Coins
+        road: Road
+        check: Check
+        alert: Alert
+        bolt: Bolt
+        globe: Globe
+        users: Users
+        sparkles: Sparkles
+        target: Target
+        search: Search
+        scale: Scale
+      title: Icon
+      examples:
+        - shield
+    eyebrow:
+      type: string
+      title: Eyebrow
+    heading:
+      type: string
+      title: Heading
+      examples:
+        - Trust
+    text:
+      type: string
+      title: Text
+      examples:
+        - Proven ability to secure critical keys, protecting data, users,
+          transactions and applications.
+    linkLabel:
+      type: string
+      title: Link Label
+    link:
+      type: string
+      format: uri-reference
+      title: Link
+    align:
+      type: string
+      enum:
+        - left
+        - center
+      meta:enum:
+        left: Left
+        center: Center
+      title: Align
+      examples:
+        - left
+slots: {}
+dataDependencies: {}

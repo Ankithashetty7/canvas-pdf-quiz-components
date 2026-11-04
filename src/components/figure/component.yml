@@ -1,0 +1,41 @@
+name: Figure
+machineName: figure
+status: true
+required:
+  - image
+props:
+  properties:
+    image:
+      type: object
+      $ref: json-schema-definitions://canvas.module/image
+      title: Image
+      examples:
+        - src: https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&q=70
+          alt: Server room
+          width: 1200
+          height: 800
+    caption:
+      type: string
+      title: Caption
+    aspect:
+      type: string
+      enum:
+        - auto
+        - landscape
+        - portrait
+        - square
+      meta:enum:
+        auto: Original
+        landscape: Landscape
+        portrait: Portrait
+        square: Square
+      title: Aspect
+      examples:
+        - landscape
+    parallax:
+      type: boolean
+      title: Parallax
+      examples:
+        - false
+slots: {}
+dataDependencies: {}
